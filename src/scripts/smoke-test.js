@@ -7,3 +7,4 @@ if (!app || typeof app !== 'function') {
 
 console.log('[PASS] Express backend initialized and exported correctly');
 process.exit(0);
+

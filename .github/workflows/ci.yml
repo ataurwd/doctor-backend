@@ -36,3 +36,4 @@ jobs:
           JWT_SECRET: test-secret-key-123456
           API_SECRET_KEY: test-api-secret-123456
           CLIENT_HANDSHAKE_TOKEN: test-handshake-token-123456
+
