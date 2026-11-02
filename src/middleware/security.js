@@ -7,7 +7,10 @@ const JWT_SECRET = process.env.JWT_SECRET || 'dr-sajib-rheumatology-jwt-secret-k
 
 // Allowed client origins
 function getAllowedOrigins() {
-  const custom = process.env.FRONTEND_URL ? [process.env.FRONTEND_URL.replace(/\/$/, '')] : [];
+  const custom = [];
+  if (process.env.FRONTEND_URL) {
+    custom.push(...process.env.FRONTEND_URL.split(',').map((u) => u.trim().replace(/\/$/, '')));
+  }
   return [
     ...custom,
     'http://localhost:3000',
@@ -15,6 +18,15 @@ function getAllowedOrigins() {
     'http://localhost:5000',
     'http://127.0.0.1:5000',
   ];
+}
+
+function isOriginAllowed(origin) {
+  if (!origin) return true;
+  const allowed = getAllowedOrigins();
+  if (allowed.some((a) => origin.startsWith(a))) return true;
+  // Automatically allow all Vercel domains (e.g. doctor-frontend-pi.vercel.app or branch previews)
+  if (/^https:\/\/[a-zA-Z0-9-_.]+\.vercel\.app/.test(origin)) return true;
+  return false;
 }
 
 // 1. Direct API Access Guard
@@ -58,16 +70,16 @@ function apiGuard(req, res, next) {
   const requestedWith = req.headers['x-requested-with'];
   const allowed = getAllowedOrigins();
 
-  const isOriginAllowed = origin && allowed.some((a) => origin.startsWith(a));
-  const isRefererAllowed = referer && allowed.some((a) => referer.startsWith(a));
+  const originValid = isOriginAllowed(origin);
+  const refererValid = isOriginAllowed(referer);
   const hasClientProof = clientToken === CLIENT_TOKEN || requestedWith === 'XMLHttpRequest';
 
-  if ((isOriginAllowed || isRefererAllowed) && hasClientProof) {
+  if ((originValid || refererValid) && hasClientProof) {
     return next();
   }
 
   // If request also comes from local browser on development environment with valid origin
-  if (process.env.NODE_ENV !== 'production' && (isOriginAllowed || isRefererAllowed)) {
+  if (process.env.NODE_ENV !== 'production' && (originValid || refererValid)) {
     return next();
   }
 
@@ -133,6 +145,7 @@ module.exports = {
   apiLimiter,
   mongoSanitize,
   getAllowedOrigins,
+  isOriginAllowed,
   API_SECRET_KEY,
   CLIENT_TOKEN,
 };

@@ -73,22 +73,39 @@ async function seedMongoIfNeeded() {
   }
 }
 
+let cachedPromise = null;
+
 async function connectDB() {
-  const uri = process.env.MONGODB_URI || 'mongodb://127.0.0.1:27017/dr_sajib';
-  try {
-    await mongoose.connect(uri, {
-      serverSelectionTimeoutMS: 10000,
-    });
+  if (mongoose.connection && mongoose.connection.readyState === 1) {
     isMongoConnected = true;
-    console.log(`[DB] Connected to MongoDB at ${uri}`);
-    await seedMongoIfNeeded();
-  } catch (err) {
-    isMongoConnected = false;
-    console.log(
-      `[DB] Local MongoDB service (${uri}) not detected (${err.message}). Using Mongoose-compatible persistent JSON document store at data/database.json.`
-    );
-    ensureFileStore();
+    return mongoose.connection;
   }
+
+  if (cachedPromise) {
+    return cachedPromise;
+  }
+
+  const uri = process.env.MONGODB_URI || 'mongodb://127.0.0.1:27017/dr_sajib';
+  cachedPromise = mongoose
+    .connect(uri, {
+      serverSelectionTimeoutMS: 10000,
+    })
+    .then(async (m) => {
+      isMongoConnected = true;
+      console.log(`[DB] Connected to MongoDB at ${uri}`);
+      await seedMongoIfNeeded();
+      return m;
+    })
+    .catch((err) => {
+      cachedPromise = null;
+      isMongoConnected = false;
+      console.log(
+        `[DB] Local MongoDB service (${uri}) not detected (${err.message}). Using Mongoose-compatible persistent JSON document store at data/database.json.`
+      );
+      ensureFileStore();
+    });
+
+  return cachedPromise;
 }
 
 const COLLECTION_MAP = {

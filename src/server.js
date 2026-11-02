@@ -9,6 +9,7 @@ const {
   mongoSanitize,
   apiLimiter,
   getAllowedOrigins,
+  isOriginAllowed,
 } = require('./middleware/security');
 const publicRoutes = require('./routes/public');
 const adminRoutes = require('./routes/admin');
@@ -27,14 +28,11 @@ app.use(
 );
 
 // 2. Strict CORS Policy
-const allowedOrigins = getAllowedOrigins();
 app.use(
   cors({
     origin: function (origin, callback) {
       // Allow requests with no origin (e.g. server-side Next.js, mobile apps, or local curl with secret)
-      if (!origin) return callback(null, true);
-      const isAllowed = allowedOrigins.some((allowed) => origin.startsWith(allowed));
-      if (isAllowed) {
+      if (!origin || isOriginAllowed(origin)) {
         callback(null, true);
       } else {
         console.warn(`[Security Alert] Blocked by CORS: Origin ${origin} is not allowed.`);
@@ -52,6 +50,16 @@ app.use(
     ],
   })
 );
+
+// Ensure MongoDB connection is ready on every request (essential for Vercel Serverless Functions)
+app.use(async (req, res, next) => {
+  try {
+    await connectDB();
+  } catch (err) {
+    console.warn('[DB Error]', err.message);
+  }
+  next();
+});
 
 // 3. Body Parser with Safe Size Limit
 app.use(express.json({ limit: '1mb' }));
@@ -106,4 +114,9 @@ async function start() {
   });
 }
 
-start();
+// Standalone listener when run directly (e.g. node src/server.js)
+if (require.main === module) {
+  start();
+}
+
+module.exports = app;
