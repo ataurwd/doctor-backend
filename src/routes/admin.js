@@ -4,6 +4,7 @@ const jwt = require('jsonwebtoken');
 const { repo } = require('../db');
 const { requireAuth, requireAdmin, JWT_SECRET } = require('../middleware/auth');
 const { loginLimiter } = require('../middleware/security');
+const publicRoutes = require('./public');
 
 const router = express.Router();
 
@@ -108,6 +109,7 @@ router.get('/settings', requireAuth, async (req, res) => {
 router.put('/settings', requireAuth, requireAdmin, async (req, res) => {
   try {
     const updated = await repo.updateSettingsMap(req.body || {});
+    if (publicRoutes.clearPublicCache) publicRoutes.clearPublicCache();
     console.log(`[Security Audit] Settings updated by ${req.user.email}`);
     res.json(updated);
   } catch (err) {
@@ -303,6 +305,7 @@ Object.entries(RESOURCE_MAP).forEach(([routeKey, { collection, sort }]) => {
   router.post(`/${routeKey}`, requireAuth, async (req, res) => {
     try {
       const created = await repo.create(collection, req.body || {});
+      if (publicRoutes.clearPublicCache) publicRoutes.clearPublicCache();
       console.log(`[Security Audit] Resource created in ${routeKey} by ${req.user.email}`);
       res.status(201).json(created);
     } catch (err) {
@@ -314,6 +317,7 @@ Object.entries(RESOURCE_MAP).forEach(([routeKey, { collection, sort }]) => {
     try {
       const updated = await repo.updateById(collection, req.params.id, req.body || {});
       if (!updated) return res.status(404).json({ error: 'Not found' });
+      if (publicRoutes.clearPublicCache) publicRoutes.clearPublicCache();
       console.log(`[Security Audit] Resource ${req.params.id} in ${routeKey} updated by ${req.user.email}`);
       res.json(updated);
     } catch (err) {
@@ -324,6 +328,7 @@ Object.entries(RESOURCE_MAP).forEach(([routeKey, { collection, sort }]) => {
   router.delete(`/${routeKey}/:id`, requireAuth, async (req, res) => {
     try {
       await repo.deleteById(collection, req.params.id);
+      if (publicRoutes.clearPublicCache) publicRoutes.clearPublicCache();
       console.log(`[Security Audit] Resource ${req.params.id} in ${routeKey} deleted by ${req.user.email}`);
       res.json({ ok: true });
     } catch (err) {
