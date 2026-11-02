@@ -1,0 +1,244 @@
+{
+  "page_disclaimer": "The information on this page is for general education only and does not replace a personal consultation. Please book an appointment for advice about your own condition.",
+  "specialities": [
+    {
+      "order": 1,
+      "slug": "rheumatoid-arthritis",
+      "title": "Rheumatoid Arthritis (RA)",
+      "summary": "Early diagnosis and treat-to-target care to control joint pain and swelling and prevent permanent joint damage.",
+      "what_it_is": "Rheumatoid arthritis is a long-term autoimmune disease in which the immune system attacks the lining of the joints. It most often affects the small joints of the hands, wrists and feet on both sides of the body. Without treatment, ongoing inflammation can erode bone and cartilage within the first two years, leading to deformity and disability.",
+      "common_symptoms": [
+        "Painful, swollen joints, especially fingers, wrists and feet",
+        "Morning stiffness lasting more than 30 minutes",
+        "Fatigue, low-grade fever or weight loss",
+        "Difficulty making a fist, opening jars or walking first thing in the morning"
+      ],
+      "how_dr_sajib_helps": "Diagnosis combines clinical examination, blood tests (RF, anti-CCP, ESR, CRP) and in-clinic musculoskeletal ultrasound, which can detect inflammation before it shows on X-ray. Treatment follows a treat-to-target approach: disease-modifying drugs (DMARDs) are started early and adjusted at regular reviews until the disease reaches remission or low activity. Biologic or targeted therapy is considered when standard treatment is not enough.",
+      "when_to_see": "If joint swelling or morning stiffness lasts more than six weeks, book an assessment. The first few months are the best window to prevent lasting damage."
+    },
+    {
+      "order": 2,
+      "slug": "spondyloarthritis",
+      "title": "Spondyloarthritis (Ankylosing Spondylitis and Psoriatic Arthritis)",
+      "summary": "Diagnosis and treatment of inflammatory back pain, spinal stiffness and arthritis linked to psoriasis.",
+      "what_it_is": "Spondyloarthritis is a family of inflammatory conditions that affect the spine, the pelvis (sacroiliac joints) and the points where tendons attach to bone. Ankylosing spondylitis mainly affects the spine and often begins in young adults. Psoriatic arthritis occurs in people with psoriasis and can affect joints, tendons, nails and the spine.",
+      "common_symptoms": [
+        "Back pain that starts before age 45, worsens with rest and improves with activity",
+        "Night-time back pain and morning stiffness",
+        "Heel pain, swollen fingers or toes (\"sausage digits\")",
+        "Skin psoriasis or nail pitting with joint pain",
+        "Red, painful eyes (uveitis)"
+      ],
+      "how_dr_sajib_helps": "Assessment includes clinical examination, blood tests, HLA-B27 where relevant, imaging and ultrasound of tendon attachment sites. Treatment combines anti-inflammatory medicines, exercise and posture guidance, DMARDs for peripheral arthritis, and biologic therapy for persistent disease. Early treatment helps preserve spinal movement and quality of life.",
+      "when_to_see": "Back pain lasting more than three months in a young adult, especially with night pain and morning stiffness, needs a specialist opinion."
+    },
+    {
+      "order": 3,
+      "slug": "lupus-sle",
+      "title": "Systemic Lupus Erythematosus (SLE)",
+      "summary": "Comprehensive, long-term care for lupus affecting the skin, joints, kidneys, blood and other organs.",
+      "what_it_is": "Lupus is an autoimmune disease in which the immune system can attack almost any organ. It is most common in women of childbearing age. Lupus often follows a pattern of flares and calmer periods, and the kidneys, blood cells and nervous system can be involved without obvious early symptoms.",
+      "common_symptoms": [
+        "Facial rash across the cheeks and nose, often worse in sunlight",
+        "Joint pain and swelling",
+        "Mouth ulcers and hair loss",
+        "Unexplained fever and fatigue",
+        "Swelling of legs or frothy urine, which can signal kidney involvement"
+      ],
+      "how_dr_sajib_helps": "Diagnosis is based on clinical features and immunology tests such as ANA, anti-dsDNA and complement levels. Care includes hydroxychloroquine as a foundation, careful use of steroids, and immunosuppressive treatment for organ involvement. Regular monitoring of blood counts, kidney function and urine helps catch flares early. Pregnancy planning and contraception advice are part of routine care.",
+      "when_to_see": "A combination of rash, joint pain, mouth ulcers or unexplained fever, especially in a young woman, should be evaluated by a rheumatologist."
+    },
+    {
+      "order": 4,
+      "slug": "gout-crystal-arthritis",
+      "title": "Gout and Crystal Arthritis",
+      "summary": "Fast relief of painful attacks and long-term uric acid control to stop attacks from coming back.",
+      "what_it_is": "Gout happens when uric acid builds up and forms crystals in a joint, causing sudden, severe inflammation. The big toe is classically affected, but ankles, knees, wrists and fingers can also be involved. Another crystal disease, CPPD (pseudogout), commonly affects the knees and wrists in older adults.",
+      "common_symptoms": [
+        "Sudden, intense joint pain, often starting at night",
+        "Red, hot, swollen joint that is too tender to touch",
+        "Repeated attacks becoming more frequent over time",
+        "Lumps under the skin (tophi) in long-standing gout"
+      ],
+      "how_dr_sajib_helps": "Diagnosis can be confirmed by joint fluid analysis or ultrasound, which shows typical crystal deposits. Acute attacks are treated quickly to relieve pain. Long-term care uses urate-lowering therapy with a clear target uric acid level, along with diet, weight and lifestyle advice. Related conditions such as kidney disease, diabetes and high blood pressure are also considered.",
+      "when_to_see": "Anyone with repeated attacks, tophi, kidney stones or gout that is not controlled by current treatment."
+    },
+    {
+      "order": 5,
+      "slug": "osteoarthritis-back-pain",
+      "title": "Osteoarthritis and Back Pain",
+      "summary": "Pain relief, joint protection and exercise guidance for wear-and-tear joint and spine problems.",
+      "what_it_is": "Osteoarthritis is the most common form of arthritis. The cartilage that cushions joints gradually thins, and the surrounding bone and tissues change. It most often affects knees, hips, hands and the spine, and becomes more common with age, excess weight and previous joint injury.",
+      "common_symptoms": [
+        "Joint pain that worsens with activity and eases with rest",
+        "Short-lived stiffness after rest",
+        "Knee pain when climbing stairs or praying (sitting on the floor)",
+        "Bony swelling of finger joints",
+        "Neck or lower back pain with reduced movement"
+      ],
+      "how_dr_sajib_helps": "A careful assessment separates osteoarthritis from inflammatory arthritis and other causes of pain. Treatment includes structured exercise and weight guidance, appropriate pain medicines, and ultrasound-guided joint injections where suitable. Back pain is assessed for warning signs, and an inflammatory cause is excluded.",
+      "when_to_see": "Joint or back pain that limits daily activities, does not improve with simple measures, or comes with swelling, night pain or stiffness."
+    },
+    {
+      "order": 6,
+      "slug": "systemic-sclerosis-myositis-sjogrens",
+      "title": "Systemic Sclerosis, Myositis and Sjogren's Syndrome",
+      "summary": "Specialist management of skin thickening, muscle weakness, and dry eye and dry mouth conditions.",
+      "what_it_is": "These are connective tissue diseases, a group of autoimmune conditions that affect skin, muscles, glands, blood vessels and internal organs. Systemic sclerosis (scleroderma) causes skin thickening and can affect the lungs, gut and kidneys. Myositis causes muscle inflammation and weakness. Sjogren's syndrome mainly affects tear and saliva glands.",
+      "common_symptoms": [
+        "Fingers turning white, blue and red in the cold (Raynaud's phenomenon)",
+        "Tight, thick skin on fingers, hands or face",
+        "Difficulty climbing stairs, rising from a chair or lifting arms",
+        "Persistent dry eyes and dry mouth",
+        "Breathlessness or difficulty swallowing"
+      ],
+      "how_dr_sajib_helps": "Early diagnosis uses clinical examination, immunology tests and video nailfold capillaroscopy, which shows characteristic changes in the tiny blood vessels of the fingers. Screening for lung and heart involvement is arranged early. Treatment is tailored to the organs affected and may include immunosuppressive and vascular therapies.",
+      "when_to_see": "New Raynaud's in an adult, skin tightening, unexplained muscle weakness or long-standing dry eyes and mouth."
+    },
+    {
+      "order": 7,
+      "slug": "vasculitis",
+      "title": "Vasculitis",
+      "summary": "Diagnosis and immune-targeted treatment for inflammation of blood vessels, to protect vital organs.",
+      "what_it_is": "Vasculitis is inflammation of the blood vessel walls, which can reduce blood flow to organs and tissues. It includes many conditions, such as giant cell arteritis, Takayasu arteritis, ANCA-associated vasculitis, Behcet's disease and IgA vasculitis. Some forms can rapidly affect the kidneys, lungs, nerves or eyes.",
+      "common_symptoms": [
+        "Unexplained fever, weight loss and fatigue",
+        "Skin rashes, purple spots or ulcers",
+        "Numbness or weakness in hands or feet",
+        "Blood in urine, coughing blood or persistent sinus problems",
+        "New headache or vision changes in older adults"
+      ],
+      "how_dr_sajib_helps": "Vasculitis needs fast and accurate diagnosis using blood tests, urine tests, imaging and sometimes biopsy. Treatment uses steroids and immunosuppressive or biologic medicines to control inflammation, followed by maintenance therapy and careful monitoring to prevent relapse and side effects.",
+      "when_to_see": "Unexplained fever with rash, kidney problems, nerve symptoms or multi-organ illness should be urgently assessed."
+    },
+    {
+      "order": 8,
+      "slug": "osteoporosis-bone-health",
+      "title": "Osteoporosis and Bone Health",
+      "summary": "Assessment of bone strength and treatment to reduce the risk of fractures.",
+      "what_it_is": "Osteoporosis is a condition in which bones become thin and fragile, so they break easily. It often has no symptoms until a fracture occurs, commonly in the spine, hip or wrist. Risk is higher after menopause, with older age, long-term steroid use, inflammatory arthritis, low body weight and vitamin D deficiency.",
+      "common_symptoms": [
+        "Fracture after a minor fall",
+        "Loss of height or a stooped back",
+        "Sudden back pain from a spinal fracture"
+      ],
+      "how_dr_sajib_helps": "Assessment includes risk factor review, bone density (DXA) scan and blood tests for secondary causes. Treatment combines calcium and vitamin D, exercise and fall prevention, and bone-strengthening medicines when indicated. Patients on long-term steroids receive bone protection as part of routine care.",
+      "when_to_see": "Anyone with a fracture after a minor fall, women after menopause with risk factors, or people on long-term steroid treatment."
+    },
+    {
+      "order": 9,
+      "slug": "juvenile-childhood-arthritis",
+      "title": "Juvenile and Childhood Arthritis",
+      "summary": "Gentle, age-appropriate care for children with joint inflammation, to protect growth and normal childhood activity.",
+      "what_it_is": "Juvenile idiopathic arthritis (JIA) is arthritis that starts before age 16 and lasts for more than six weeks. Children can also develop lupus, vasculitis and other autoimmune conditions. Untreated inflammation can affect growth, joint development and, in some types, the eyes.",
+      "common_symptoms": [
+        "Limping, especially in the morning",
+        "Swollen knee, ankle or wrist",
+        "Reluctance to walk, play or use a hand",
+        "Recurrent fever with rash",
+        "Eye redness or blurred vision"
+      ],
+      "how_dr_sajib_helps": "Children are assessed with attention to growth, development and family concerns. Ultrasound is especially helpful because it is painless and radiation-free. Treatment includes medicines suited to children, joint injections where needed, physiotherapy, and regular eye screening. Families receive clear guidance on school, activity and long-term outlook.",
+      "when_to_see": "A child with joint swelling, limping or stiffness lasting more than a few weeks, or recurrent fever with joint pain."
+    },
+    {
+      "order": 10,
+      "slug": "fibromyalgia-soft-tissue-rheumatism",
+      "title": "Fibromyalgia and Soft Tissue Rheumatism",
+      "summary": "Management of widespread pain and fatigue, and common problems such as frozen shoulder, tennis elbow and tendonitis.",
+      "what_it_is": "Fibromyalgia is a long-term condition causing widespread body pain, tiredness and poor sleep, related to how the nervous system processes pain. Soft tissue rheumatism covers painful conditions of tendons, ligaments and bursae, such as frozen shoulder, tennis elbow, plantar fasciitis and trigger finger.",
+      "common_symptoms": [
+        "Widespread aching pain for more than three months",
+        "Fatigue, unrefreshing sleep and poor concentration",
+        "Shoulder pain with restricted movement",
+        "Pain at the elbow, heel or wrist with use",
+        "Finger catching or locking"
+      ],
+      "how_dr_sajib_helps": "Inflammatory and other conditions are excluded with targeted examination, tests and ultrasound. Fibromyalgia care focuses on education, graded exercise, sleep improvement and selected medicines. Soft tissue problems are treated with exercise, activity modification and ultrasound-guided injections when appropriate.",
+      "when_to_see": "Persistent widespread pain, or a localised tendon or shoulder problem that has not improved after a few weeks of simple treatment."
+    }
+  ],
+  "special_services": [
+    {
+      "order": 1,
+      "slug": "pocus-musculoskeletal-ultrasound",
+      "title": "Point-of-Care Musculoskeletal Ultrasound (POCUS)",
+      "summary": "In-clinic ultrasound to detect early joint inflammation and guide treatment decisions during the same visit.",
+      "what_it_is": "Musculoskeletal ultrasound uses sound waves to show joints, tendons, ligaments and soft tissues in real time. Performed by the rheumatologist during the consultation, it adds a detailed picture to the physical examination. It is painless, safe and uses no radiation.",
+      "who_needs_it": [
+        "People with joint pain where it is unclear whether inflammation is present",
+        "Suspected early rheumatoid arthritis or psoriatic arthritis",
+        "Gout and other crystal diseases",
+        "Tendon and shoulder problems",
+        "Patients on treatment, to check whether inflammation has truly settled"
+      ],
+      "what_to_expect": "Gel is applied over the joint, and a small probe is moved gently across the skin. Each joint takes a few minutes. Results are explained immediately, so treatment decisions can be made in the same visit.",
+      "benefits": "Ultrasound can detect inflammation that is missed on examination or X-ray. This allows earlier diagnosis, more accurate monitoring and safer, more precise injections."
+    },
+    {
+      "order": 2,
+      "slug": "video-nailfold-capillaroscopy",
+      "title": "Video Nailfold Capillaroscopy",
+      "summary": "Painless, magnified imaging of the tiny blood vessels at the fingernails, to help diagnose scleroderma, Raynaud's and related diseases.",
+      "what_it_is": "Capillaroscopy uses a high-magnification video camera to examine the small blood vessels (capillaries) at the base of the fingernails. Certain autoimmune diseases cause typical changes in these vessels, sometimes years before other symptoms appear.",
+      "who_needs_it": [
+        "People whose fingers change colour in the cold (Raynaud's phenomenon)",
+        "Suspected systemic sclerosis (scleroderma)",
+        "Suspected dermatomyositis or mixed connective tissue disease",
+        "Monitoring of known connective tissue disease"
+      ],
+      "what_to_expect": "A drop of oil is placed on the skin near the nail, and the camera is held gently against each finger. The test is painless, takes about 15 to 20 minutes, and needs no preparation. Patients should avoid cutting or manicuring cuticles for a few weeks before the test.",
+      "benefits": "Capillaroscopy helps separate harmless Raynaud's from Raynaud's linked to autoimmune disease. It supports earlier diagnosis of scleroderma and helps guide monitoring and treatment."
+    },
+    {
+      "order": 3,
+      "slug": "synovial-biopsy",
+      "title": "Synovial Biopsy",
+      "summary": "Minimally invasive sampling of the joint lining for precise diagnosis in difficult or unclear arthritis.",
+      "what_it_is": "The synovium is the thin lining inside a joint, where inflammation in arthritis begins. A synovial biopsy takes small tissue samples from this lining, usually guided by ultrasound, for laboratory examination.",
+      "who_needs_it": [
+        "Arthritis in a single joint where the cause is unclear",
+        "Suspected infection, including tuberculosis of the joint",
+        "Persistent arthritis not responding to treatment",
+        "Suspected rare conditions affecting the joint lining"
+      ],
+      "what_to_expect": "The procedure is done under local anaesthetic. A fine needle is guided into the joint using ultrasound, and several small samples are taken. Most people go home the same day and resume light activity soon after. Results are discussed at a follow-up visit.",
+      "benefits": "Tissue diagnosis gives answers that blood tests and imaging cannot, helping avoid delayed or incorrect treatment."
+    },
+    {
+      "order": 4,
+      "slug": "ultrasound-guided-joint-injection-aspiration",
+      "title": "Ultrasound-guided Joint Injection and Aspiration",
+      "summary": "Accurate, safer needle placement for draining joint fluid or delivering medicine exactly where it is needed.",
+      "what_it_is": "Joint aspiration removes fluid from a swollen joint, and joint injection delivers medicine, usually a steroid, into a joint, tendon sheath or bursa. Using ultrasound guidance lets the doctor see the needle in real time.",
+      "who_needs_it": [
+        "Swollen joints needing fluid removal for relief or testing (for example, gout crystals or infection)",
+        "Persistent inflammation in one or a few joints despite medicines",
+        "Painful osteoarthritis flares",
+        "Frozen shoulder, trigger finger, tennis elbow and bursitis"
+      ],
+      "what_to_expect": "The skin is cleaned, and local anaesthetic may be used. The procedure usually takes 10 to 20 minutes. Patients are advised to rest the joint for 24 to 48 hours afterwards.",
+      "benefits": "Ultrasound guidance improves accuracy, especially in small, deep or difficult joints. This means better results, less discomfort and fewer complications."
+    },
+    {
+      "order": 5,
+      "slug": "biologic-dmard-therapy",
+      "title": "Biologic and DMARD Therapy",
+      "summary": "Safe planning, screening and monitoring of advanced medicines for long-term control of inflammatory and autoimmune disease.",
+      "what_it_is": "Disease-modifying anti-rheumatic drugs (DMARDs), such as methotrexate, sulfasalazine and hydroxychloroquine, slow or stop disease activity. Biologic and targeted therapies act on specific parts of the immune system and are used when standard treatment is not enough.",
+      "who_needs_it": [
+        "Rheumatoid arthritis, spondyloarthritis and psoriatic arthritis",
+        "Lupus, vasculitis and other connective tissue diseases",
+        "Patients with active disease despite standard treatment"
+      ],
+      "what_to_expect": "Before starting, patients are screened for tuberculosis, hepatitis and other infections, and vaccinations are reviewed. Regular blood tests and clinic reviews monitor response and safety. Treatment is adjusted to reach remission or the lowest possible disease activity.",
+      "benefits": "Modern therapies can control disease, prevent joint damage and help patients return to work and family life. Careful screening and monitoring keep treatment safe, which is especially important in Bangladesh, where tuberculosis screening is essential."
+    }
+  ],
+  "developer_notes": [
+    "Use each 'summary' field on service cards and listing pages; use the full fields on the individual page.",
+    "Add a 'Book an appointment' button with the chamber details and WhatsApp link at the end of every page.",
+    "Procedure details such as timings and preparation should be confirmed by Dr. Sajib before publishing, as practice can vary by chamber.",
+    "A Bangla version of each page will help reach more patients; the English text can be translated section by section."
+  ]
+}

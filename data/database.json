@@ -1,0 +1,1144 @@
+{
+  "users": [
+    {
+      "_id": "user_admin_1",
+      "name": "Dr. Sajib Admin",
+      "email": "admin@example.com",
+      "password": "$2a$10$jrf.t4E3a23f26oQqVH/eeJOgLyvwffvRqhItWNQC9NFcrM/rr3yu",
+      "role": "admin",
+      "createdAt": "2026-11-01T06:50:47.204Z",
+      "updatedAt": "2026-11-01T06:50:47.205Z"
+    },
+    {
+      "_id": "user_editor_1",
+      "name": "Chamber Staff Editor",
+      "email": "editor@example.com",
+      "password": "$2a$10$fbMkkfmIbKxI12QtJptpI.nmNLHw1VzPFdWc4XavTeL/qsM7Ce3.6",
+      "role": "editor",
+      "createdAt": "2026-11-01T06:50:47.205Z",
+      "updatedAt": "2026-11-01T06:50:47.205Z"
+    }
+  ],
+  "doctors": [
+    {
+      "_id": "doctor_1",
+      "name": {
+        "en": "Dr. Md. Kamrul Hasan Sajib",
+        "bn": "ডা: মো: কামরুল হাসান সজীব"
+      },
+      "title_line": {
+        "en": "Dhaka Medical College Hospital, Dhaka",
+        "bn": "ঢাকা মেডিকেল কলেজ হাসপাতাল, ঢাকা"
+      },
+      "credentials": {
+        "en": "MBBS, BCS (Health), MD (Rheumatology), ECRD (Switzerland), FACR (USA)",
+        "bn": "এমবিবিএস, বিসিএস (স্বাস্থ্য), এমডি (রিউমাটোলজি), ইসিআরডি (সুইজারল্যান্ড), এফএসিআর (ইউএসএ)"
+      },
+      "specialty_line": {
+        "en": "Rheumatology, arthritis and joint pain specialist",
+        "bn": "বাত-ব্যথা ও রিউমাটোলজি বিশেষজ্ঞ"
+      },
+      "bio": {
+        "en": "Dr. Md. Kamrul Hasan Sajib is a rheumatologist at Dhaka Medical College Hospital, Dhaka. He treats arthritis, joint pain and autoimmune conditions.\n\nHis qualifications are MBBS, BCS (Health) and MD in Rheumatology. He also holds ECRD (Switzerland) and FACR (USA).\n\nHe sees patients at Japan Bangladesh Friendship Hospital in Dhanmondi, Dhaka, and at Ibn Sina D.Lab and Consultation Center in Cumilla. Please call the chamber to book a visit.",
+        "bn": "ডা: মো: কামরুল হাসান সজীব ঢাকা মেডিকেল কলেজ হাসপাতালের একজন বাত-ব্যথা ও রিউমাটোলজি বিশেষজ্ঞ। তিনি বিভিন্ন ধরণের আর্থ্রাইটিস, জয়েন্টের দীর্ঘমেয়াদী ব্যথা এবং অটোইমিউন রোগের সর্বাধুনিক ও প্রমাণভিত্তিক চিকিৎসা প্রদান করেন।\n\nতাঁর চিকিৎসা যোগ্যতার মধ্যে রয়েছে এমবিবিএস, বিসিএস (স্বাস্থ্য) এবং রিউমাটোলজিতে এমডি। এছাড়াও তিনি সুইজারল্যান্ড থেকে ইসিআরডি এবং ইউএসএ থেকে এফএসিআর ফেলোশিপ সম্পন্ন করেছেন।\n\nতিনি নিয়মিত ধানমন্ডির জাপান বাংলাদেশ ফ্রেন্ডশিপ হসপিটাল এবং কুমিল্লার ইবনে সিনা ডি.ল্যাব এন্ড কনসালটেশন সেন্টারে রোগী দেখেন। চেম্বারে সরাসরি যোগাযোগের জন্য ফোন করুন।"
+      },
+      "years_experience": null,
+      "photo_path": null,
+      "facebook_url": "https://www.facebook.com/dr.khsajib",
+      "review_note": "DRAFT FOR DR. SAJIB TO REVIEW: this bio was written only from the facts in the build brief. Rank (Consultant or Registrar) is deliberately left out until confirmed. Years of experience is empty, so no experience badge is shown. Bangla bio still needed.",
+      "createdAt": "2026-11-01T06:50:47.205Z",
+      "updatedAt": "2026-11-01T06:50:47.205Z"
+    }
+  ],
+  "chambers": [
+    {
+      "_id": "chamber_1",
+      "name": {
+        "en": "Japan Bangladesh Friendship Hospital (JBFH)",
+        "bn": "জাপান বাংলাদেশ ফ্রেন্ডশিপ মেডিকেল সার্ভিসেস লিঃ"
+      },
+      "address": {
+        "en": "55 Satmasjid Road (Zigatola Bus Stand), Dhanmondi, Dhaka-1209",
+        "bn": "৫৫, সাতমসজিদ রোড (জিগাতলা বাস স্ট্যান্ড), ধানমন্ডি, ঢাকা-১২০৯"
+      },
+      "phone_primary": "01711-647877",
+      "phone_secondary": null,
+      "email": "jbfh24@yahoo.com",
+      "website": "www.jbfh.org.bd",
+      "hours_text": {
+        "en": "Saturday to Wednesday, 7 pm to 10 pm",
+        "bn": "শনিবার থেকে বুধবার, সন্ধ্যা ৭টা থেকে রাত ১০টা পর্যন্ত"
+      },
+      "hours_note": {
+        "en": "",
+        "bn": ""
+      },
+      "map_url": null,
+      "is_active": true,
+      "verify_note": "Other phone numbers on the card were unreadable. Confirm and add.",
+      "sort_order": 1,
+      "createdAt": "2026-11-01T06:50:47.205Z",
+      "updatedAt": "2026-11-01T06:50:47.205Z"
+    },
+    {
+      "_id": "chamber_2",
+      "name": {
+        "en": "Ibn Sina D.Lab and Consultation Center, Cumilla",
+        "bn": "ইবনে সিনা ডি. ল্যাব এন্ড কমসালটেশন সেন্টার, কুমিল্লা"
+      },
+      "address": {
+        "en": "29 Kot Bari Road, Tomsom Bridge, Cumilla-3500",
+        "bn": "২৯, কোট বাড়ি রোড, টমছম ব্রিজ, কুমিল্লা-৩৫০০"
+      },
+      "phone_primary": "01841-212275",
+      "phone_secondary": "01841-212276",
+      "email": null,
+      "website": null,
+      "hours_text": {
+        "en": "Every Friday, 10 am to 7 pm",
+        "bn": "প্রতি শুক্রবার সকাল ১০টা থেকে সন্ধ্যা ৭টা পর্যন্ত"
+      },
+      "hours_note": {
+        "en": "",
+        "bn": ""
+      },
+      "map_url": null,
+      "is_active": true,
+      "verify_note": "Card shows 01841-222275/276, Ibn Sina Trust site shows 01841-212275/276. Confirm which is correct.",
+      "sort_order": 2,
+      "createdAt": "2026-11-01T06:50:47.205Z",
+      "updatedAt": "2026-11-01T06:50:47.205Z"
+    },
+    {
+      "_id": "chamber_3",
+      "name": {
+        "en": "BRAC Healthcare, Siddheswari, Dhaka",
+        "bn": ""
+      },
+      "address": {
+        "en": "116/1 Siddheswari Circular Road, Dhaka-1217",
+        "bn": ""
+      },
+      "phone_primary": null,
+      "phone_secondary": null,
+      "email": null,
+      "website": null,
+      "hours_text": {
+        "en": "",
+        "bn": ""
+      },
+      "hours_note": {
+        "en": "",
+        "bn": ""
+      },
+      "map_url": null,
+      "is_active": false,
+      "verify_note": "Not on his printed cards. Keep hidden until he confirms he still sits here.",
+      "sort_order": 3,
+      "createdAt": "2026-11-01T06:50:47.205Z",
+      "updatedAt": "2026-11-01T06:50:47.205Z"
+    }
+  ],
+  "specialities": [
+    {
+      "_id": "spec_1",
+      "slug": "rheumatoid-arthritis",
+      "title": {
+        "en": "Rheumatoid Arthritis (RA)",
+        "bn": "রিউমাটয়েড আর্থ্রাইটিস (আরএ)"
+      },
+      "summary": {
+        "en": "Early diagnosis and treat-to-target care to control joint pain and swelling and prevent permanent joint damage.",
+        "bn": "জয়েন্টের ব্যথা ও ফোলা নিয়ন্ত্রণ এবং দীর্ঘস্থায়ী ক্ষতি রোধে সঠিক সময়ে রোগ নির্ণয় ও সুনির্দিষ্ট চিকিৎসা।"
+      },
+      "what_it_is": {
+        "en": "Rheumatoid arthritis is a long-term autoimmune disease in which the immune system attacks the lining of the joints. It most often affects the small joints of the hands, wrists and feet on both sides of the body. Without treatment, ongoing inflammation can erode bone and cartilage within the first two years, leading to deformity and disability.",
+        "bn": "রিউমাটয়েড আর্থ্রাইটিস একটি দীর্ঘমেয়াদী অটোইমিউন রোগ যাতে শরীরের রোগপ্রতিরোধ ব্যবস্থা নিজের জয়েন্টের আস্তরণে আক্রমণ করে। এটি সাধারণত হাত, কব্জি এবং পায়ের ছোট জয়েন্টগুলোকে আক্রান্ত করে। চিকিৎসা না নিলে শুরুর দুই বছরের মধ্যেই হাড় ও কার্টিলেজ ক্ষতিগ্রস্ত হয়ে বিকলাঙ্গতা হতে পারে।"
+      },
+      "common_symptoms": {
+        "en": [
+          "Painful, swollen joints, especially fingers, wrists and feet",
+          "Morning stiffness lasting more than 30 minutes",
+          "Fatigue, low-grade fever or weight loss",
+          "Difficulty making a fist, opening jars or walking first thing in the morning"
+        ],
+        "bn": [
+          "হাত, কব্জি ও পায়ের জয়েন্টে তীব্র ব্যথা ও ফোলাভাব",
+          "সকালে ঘুম থেকে ওঠার পর ৩০ মিনিটের বেশি সময় জয়েন্ট শক্ত হয়ে থাকা",
+          "ক্লান্তি, মৃদু জ্বর বা ওজন হ্রাস",
+          "সকালে হাতের মুঠ শক্ত করা বা হাঁটার ক্ষেত্রে অসুবিধা"
+        ]
+      },
+      "how_dr_sajib_helps": {
+        "en": "Diagnosis combines clinical examination, blood tests (RF, anti-CCP, ESR, CRP) and in-clinic musculoskeletal ultrasound, which can detect inflammation before it shows on X-ray. Treatment follows a treat-to-target approach: disease-modifying drugs (DMARDs) are started early and adjusted at regular reviews until the disease reaches remission or low activity. Biologic or targeted therapy is considered when standard treatment is not enough.",
+        "bn": "ক্লিনিক্যাল পরীক্ষা, রক্ত পরীক্ষা (RF, anti-CCP, ESR, CRP) এবং আল্ট্রাসাউন্ডের (POCUS) মাধ্যমে এক্স-রেতে ধরা পড়ার আগেই প্রদাহ শনাক্ত করা হয়। এরপর আধুনিক ডিএমএআরডি (DMARDs) এবং প্রয়োজনে বায়োলজিক থেরাপির মাধ্যমে রোগ নিয়ন্ত্রণে আনা হয়।"
+      },
+      "when_to_see": {
+        "en": "If joint swelling or morning stiffness lasts more than six weeks, book an assessment. The first few months are the best window to prevent lasting damage.",
+        "bn": "জয়েন্টে ফোলা বা সকালের আড়ষ্টতা যদি ছয় সপ্তাহের বেশি স্থায়ী হয়, তবে দ্রুত একজন রিউমাটোলজিস্ট দেখান।"
+      },
+      "urgent_note": {
+        "en": "",
+        "bn": ""
+      },
+      "sort_order": 1,
+      "is_published": true,
+      "review_note": "Bangla translation needed (reviewed, not machine translated).",
+      "createdAt": "2026-11-01T06:50:47.205Z",
+      "updatedAt": "2026-11-01T06:50:47.205Z"
+    },
+    {
+      "_id": "spec_2",
+      "slug": "spondyloarthritis",
+      "title": {
+        "en": "Spondyloarthritis (Ankylosing Spondylitis and Psoriatic Arthritis)",
+        "bn": "স্পন্ডিলাইটিস ও স্পন্ডিলোআর্থ্রাইটিস (অ্যাংকাইলোজিং ও সোরিয়াটিক)"
+      },
+      "summary": {
+        "en": "Diagnosis and treatment of inflammatory back pain, spinal stiffness and arthritis linked to psoriasis.",
+        "bn": "কোমরের প্রদাহজনিত ব্যথা, মেরুদণ্ডের আড়ষ্টতা এবং সোরিয়াসিস সম্পর্কিত বাতের সঠিক রোগ নির্ণয় ও চিকিৎসা।"
+      },
+      "what_it_is": {
+        "en": "Spondyloarthritis is a family of inflammatory conditions that affect the spine, the pelvis (sacroiliac joints) and the points where tendons attach to bone. Ankylosing spondylitis mainly affects the spine and often begins in young adults. Psoriatic arthritis occurs in people with psoriasis and can affect joints, tendons, nails and the spine.",
+        "bn": "স্পন্ডিলোআর্থ্রাইটিস হলো একদল প্রদাহজনিত রোগ যা প্রধানত মেরুদণ্ড, পেলভিস ও টেন্ডন যেখানে হাড়ে যুক্ত হয় সেখানে আক্রমণ করে। অ্যাংকাইলোজিং স্পন্ডিলাইটিস সাধারণত তরুণ বয়সে শুরু হয় এবং মেরুদণ্ড শক্ত করে ফেলে।"
+      },
+      "common_symptoms": {
+        "en": [
+          "Back pain that starts before age 45, worsens with rest and improves with activity",
+          "Night-time back pain and morning stiffness",
+          "Heel pain, swollen fingers or toes (\"sausage digits\")",
+          "Skin psoriasis or nail pitting with joint pain",
+          "Red, painful eyes (uveitis)"
+        ],
+        "bn": [
+          "৪৫ বছর বয়সের আগে শুরু হওয়া কোমর ব্যথা যা বিশ্রামে বাড়ে এবং সচল থাকলে কমে",
+          "রাতের বেলা কোমর ব্যথা এবং সকালে মেরুদণ্ডের তীব্র আড়ষ্টতা",
+          "গোড়ালিতে ব্যথা বা আঙুল ফুলে সসেজের মতো মোটা হওয়া",
+          "ত্বকে সোরিয়াসিসের ফুসকুড়ি বা নখে গর্তের সাথে জয়েন্টে ব্যথা",
+          "চোখ লাল হওয়া ও ব্যথা (ইউভাইটিস)"
+        ]
+      },
+      "how_dr_sajib_helps": {
+        "en": "Assessment includes clinical examination, blood tests, HLA-B27 where relevant, imaging and ultrasound of tendon attachment sites. Treatment combines anti-inflammatory medicines, exercise and posture guidance, DMARDs for peripheral arthritis, and biologic therapy for persistent disease. Early treatment helps preserve spinal movement and quality of life.",
+        "bn": "এইচএলএ-বি২৭ পরীক্ষা, এমআরআই এবং আল্ট্রাসাউন্ডের মাধ্যমে রোগ নিশ্চিত করা হয়। শারীরিক ব্যায়ামের সঠিক পরামর্শ, ফিজিওথেরাপি এবং বায়োলজিক ওষুধের মাধ্যমে মেরুদণ্ডের নমনীয়তা অক্ষুণ্ণ রাখা হয়।"
+      },
+      "when_to_see": {
+        "en": "Back pain lasting more than three months in a young adult, especially with night pain and morning stiffness, needs a specialist opinion.",
+        "bn": "তরুণ বয়সে তিন মাসের বেশি স্থায়ী কোমর ব্যথা, বিশেষ করে রাতে ব্যথা ও সকালে আড়ষ্টতা থাকলে অবিলম্বে বিশেষজ্ঞের পরামর্শ নেওয়া উচিত।"
+      },
+      "urgent_note": {
+        "en": "",
+        "bn": ""
+      },
+      "sort_order": 2,
+      "is_published": true,
+      "review_note": "Bangla translation needed (reviewed, not machine translated).",
+      "createdAt": "2026-11-01T06:50:47.205Z",
+      "updatedAt": "2026-11-01T06:50:47.205Z"
+    },
+    {
+      "_id": "spec_3",
+      "slug": "lupus-sle",
+      "title": {
+        "en": "Systemic Lupus Erythematosus (SLE)",
+        "bn": "সিস্টেমিক লুপাস ইরিথেমাটোসাস (লুপাস / এসএলই)"
+      },
+      "summary": {
+        "en": "Comprehensive, long-term care for lupus affecting the skin, joints, kidneys, blood and other organs.",
+        "bn": "ত্বক, জয়েন্ট, কিডনি, রক্ত ও অন্যান্য অঙ্গের সুরক্ষায় লুপাস রোগের সামগ্রিক ও দীর্ঘমেয়াদী চিকিৎসা।"
+      },
+      "what_it_is": {
+        "en": "Lupus is an autoimmune disease in which the immune system can attack almost any organ. It is most common in women of childbearing age. Lupus often follows a pattern of flares and calmer periods, and the kidneys, blood cells and nervous system can be involved without obvious early symptoms.",
+        "bn": "লুপাস একটি জটিল অটোইমিউন রোগ যাতে রোগপ্রতিরোধ ব্যবস্থা শরীরের যেকোনো অঙ্গ বা টিস্যুকে আক্রমণ করতে পারে। এটি বিশেষ করে প্রজননক্ষম বয়সের নারীদের বেশি হয়।"
+      },
+      "common_symptoms": {
+        "en": [
+          "Facial rash across the cheeks and nose, often worse in sunlight",
+          "Joint pain and swelling",
+          "Mouth ulcers and hair loss",
+          "Unexplained fever and fatigue",
+          "Swelling of legs or frothy urine, which can signal kidney involvement"
+        ],
+        "bn": [
+          "গালে ও নাকের ওপর প্রজাপতির মতো লালচে র‍্যাশ (বাটারফ্লাই র‍্যাশ)",
+          "জয়েন্টে ব্যথা ও ফোলাভাব",
+          "মুখে বারবার ঘা এবং অস্বাভাবিক চুল পড়া",
+          "অকারণ দীর্ঘস্থায়ী জ্বর ও অতিরিক্ত ক্লান্তি",
+          "পায়ে পানি আসা বা প্রস্রাবে ফেনা হওয়া (যা কিডনির লক্ষণ হতে পারে)"
+        ]
+      },
+      "how_dr_sajib_helps": {
+        "en": "Diagnosis is based on clinical features and immunology tests such as ANA, anti-dsDNA and complement levels. Care includes hydroxychloroquine as a foundation, careful use of steroids, and immunosuppressive treatment for organ involvement. Regular monitoring of blood counts, kidney function and urine helps catch flares early. Pregnancy planning and contraception advice are part of routine care.",
+        "bn": "এএনএ (ANA), অ্যান্টি-ডিএসডিএনএ এবং কমপ্লিমেন্ট পরীক্ষার মাধ্যমে রোগ নির্ণয় ও নিয়মিত ফলো-আপ করা হয়। হাইড্রক্সিক্লোরোকুইন এবং আধুনিক ইমিউনোসাপ্রেসিভ চিকিৎসার মাধ্যমে কিডনি ও গুরুত্বপূর্ণ অঙ্গের ক্ষতি প্রতিরোধ করা হয়।"
+      },
+      "when_to_see": {
+        "en": "A combination of rash, joint pain, mouth ulcers or unexplained fever, especially in a young woman, should be evaluated by a rheumatologist.",
+        "bn": "মুখের র‍্যাশ, জয়েন্টে ব্যথা, মুখে ঘা বা অকারণ জ্বরের লক্ষণ দেখা দিলে দ্রুত রিউমাটোলজিস্ট দেখান।"
+      },
+      "urgent_note": {
+        "en": "Seek urgent medical care if you have severe breathlessness, chest pain, blood in the urine or sputum, sudden weakness, a very high fever, or sudden vision loss.",
+        "bn": "তীব্র শ্বাসকষ্ট, বুকে ব্যথা, প্রস্রাবে বা কাশির সাথে রক্ত, হঠাৎ দুর্বলতা, খুব বেশি জ্বর বা দৃষ্টিশক্তি লোপ পেলে তাৎক্ষণিক জরুরি চিকিৎসা নিন।"
+      },
+      "sort_order": 3,
+      "is_published": true,
+      "review_note": "DRAFT FOR DR. SAJIB TO APPROVE: the urgent note wording was added by the developer. Bangla translation needed.",
+      "createdAt": "2026-11-01T06:50:47.205Z",
+      "updatedAt": "2026-11-01T06:50:47.205Z"
+    },
+    {
+      "_id": "spec_4",
+      "slug": "gout-crystal-arthritis",
+      "title": {
+        "en": "Gout and Crystal Arthritis",
+        "bn": "গেঁটেবাত ও ক্রিস্টাল আর্থ্রাইটিস (গাউট)"
+      },
+      "summary": {
+        "en": "Fast relief of painful attacks and long-term uric acid control to stop attacks from coming back.",
+        "bn": "তীব্র বাতের ব্যথার দ্রুত উপশম এবং রক্তের ইউরিক অ্যাসিড নিয়ন্ত্রণের মাধ্যমে পুনরায় আক্রমণ প্রতিরোধ।"
+      },
+      "what_it_is": {
+        "en": "Gout happens when uric acid builds up and forms crystals in a joint, causing sudden, severe inflammation. The big toe is classically affected, but ankles, knees, wrists and fingers can also be involved. Another crystal disease, CPPD (pseudogout), commonly affects the knees and wrists in older adults.",
+        "bn": "রক্তে অতিরিক্ত ইউরিক অ্যাসিড জমা হয়ে জয়েন্টের ভেতরে সূক্ষ্ম ক্রিস্টাল বা দানা তৈরি হলে গেঁটেবাত দেখা দেয়। এটি প্রধানত পায়ের বৃদ্ধাঙ্গুলে হঠাৎ তীব্র প্রদাহ ও ব্যথা দিয়ে শুরু হয়।"
+      },
+      "common_symptoms": {
+        "en": [
+          "Sudden, intense joint pain, often starting at night",
+          "Red, hot, swollen joint that is too tender to touch",
+          "Repeated attacks becoming more frequent over time",
+          "Lumps under the skin (tophi) in long-standing gout"
+        ],
+        "bn": [
+          "হঠাৎ শুরু হওয়া অসহ্য জয়েন্ট ব্যথা, যা প্রায়ই রাতে শুরু হয়",
+          "জয়েন্ট লালচে, গরম ও ফোলা হয়ে যাওয়া যা সামান্য স্পর্শেও তীব্র ব্যথা করে",
+          "সময়ের সাথে সাথে ঘন ঘন ব্যথার আক্রমণ হওয়া",
+          "জয়েন্টের আশপাশে ত্বকের নিচে শক্ত গুটি বা টোফাই তৈরি হওয়া"
+        ]
+      },
+      "how_dr_sajib_helps": {
+        "en": "Diagnosis can be confirmed by joint fluid analysis or ultrasound, which shows typical crystal deposits. Acute attacks are treated quickly to relieve pain. Long-term care uses urate-lowering therapy with a clear target uric acid level, along with diet, weight and lifestyle advice. Related conditions such as kidney disease, diabetes and high blood pressure are also considered.",
+        "bn": "জয়েন্ট ফ্লুইড পরীক্ষা বা আল্ট্রাসাউন্ডের মাধ্যমে ক্রিস্টাল শনাক্ত করে তাৎক্ষণিক ব্যথানাশক চিকিৎসা দেওয়া হয় এবং দীর্ঘমেয়াদে ইউরিক অ্যাসিড কমানোর ওষুধ ও সঠিক খাদ্যাভ্যাসের পরামর্শ দেওয়া হয়।"
+      },
+      "when_to_see": {
+        "en": "Anyone with repeated attacks, tophi, kidney stones or gout that is not controlled by current treatment.",
+        "bn": "বারবার জয়েন্ট ফুলে যাওয়া, ত্বকের নিচে শক্ত দলা দেখা দেওয়া বা কিডনিতে পাথরের ইতিহাস থাকলে বিশেষজ্ঞের চিকিৎসা নিন।"
+      },
+      "urgent_note": {
+        "en": "",
+        "bn": ""
+      },
+      "sort_order": 4,
+      "is_published": true,
+      "review_note": "Bangla translation needed (reviewed, not machine translated).",
+      "createdAt": "2026-11-01T06:50:47.205Z",
+      "updatedAt": "2026-11-01T06:50:47.205Z"
+    },
+    {
+      "_id": "spec_5",
+      "slug": "osteoarthritis-back-pain",
+      "title": {
+        "en": "Osteoarthritis and Back Pain",
+        "bn": "অস্টিওআর্থ্রাইটিস ও পিঠ-কোমরের বাত"
+      },
+      "summary": {
+        "en": "Pain relief, joint protection and exercise guidance for wear-and-tear joint and spine problems.",
+        "bn": "বয়সজনিত জয়েন্টের ক্ষয় ও মেরুদণ্ডের সমস্যার ক্ষেত্রে ব্যথা উপশম, জয়েন্ট সুরক্ষা ও ব্যায়াম নির্দেশনা।"
+      },
+      "what_it_is": {
+        "en": "Osteoarthritis is the most common form of arthritis. The cartilage that cushions joints gradually thins, and the surrounding bone and tissues change. It most often affects knees, hips, hands and the spine, and becomes more common with age, excess weight and previous joint injury.",
+        "bn": "অস্টিওআর্থ্রাইটিস হলো বাতের সবচেয়ে সাধারণ রূপ। এতে জয়েন্টের হাড়ের প্রান্তভাগের সুরক্ষাকারী তরুণাস্থি (কার্টিলেজ) ক্ষয়প্রাপ্ত হয়। এটি সাধারণত হাঁটু, কোমর, ঘাড় ও হাতের জয়েন্টকে বেশি প্রভাবিত করে।"
+      },
+      "common_symptoms": {
+        "en": [
+          "Joint pain that worsens with activity and eases with rest",
+          "Short-lived stiffness after rest",
+          "Knee pain when climbing stairs or praying (sitting on the floor)",
+          "Bony swelling of finger joints",
+          "Neck or lower back pain with reduced movement"
+        ],
+        "bn": [
+          "হাঁটাচলা বা কাজ করলে জয়েন্টে ব্যথা বৃদ্ধি এবং বিশ্রামে উপশম",
+          "বিশ্রামের পর অল্প সময়ের আড়ষ্টতা",
+          "সিঁড়ি দিয়ে ওঠার সময় বা মেঝেতে নামাজ পড়ার সময় হাঁটুতে ব্যথা",
+          "হাতের আঙুলের জয়েন্টে শক্ত ফোলাভাব",
+          "ঘাড় ও কোমরের নড়াচড়া সীমিত হয়ে যাওয়া"
+        ]
+      },
+      "how_dr_sajib_helps": {
+        "en": "A careful assessment separates osteoarthritis from inflammatory arthritis and other causes of pain. Treatment includes structured exercise and weight guidance, appropriate pain medicines, and ultrasound-guided joint injections where suitable. Back pain is assessed for warning signs, and an inflammatory cause is excluded.",
+        "bn": "রোগ নির্ণয়ের পর ওজন নিয়ন্ত্রণ, জয়েন্ট শক্তিশালী করার ব্যায়াম, সঠিক ওষুধ এবং প্রয়োজনে আল্ট্রাসাউন্ডের সাহায্যে জয়েন্টে ইনজেকশনের মাধ্যমে দীর্ঘস্থায়ী স্বস্তি প্রদান করা হয়।"
+      },
+      "when_to_see": {
+        "en": "Joint or back pain that limits daily activities, does not improve with simple measures, or comes with swelling, night pain or stiffness.",
+        "bn": "জয়েন্ট বা কোমরের ব্যথা যদি দৈনন্দিন কাজকর্মে বাধা সৃষ্টি করে এবং সাধারণ ওষুধে না কমে, তবে রিউমাটোলজিস্টের পরামর্শ নিন।"
+      },
+      "urgent_note": {
+        "en": "",
+        "bn": ""
+      },
+      "sort_order": 5,
+      "is_published": true,
+      "review_note": "Bangla translation needed (reviewed, not machine translated).",
+      "createdAt": "2026-11-01T06:50:47.205Z",
+      "updatedAt": "2026-11-01T06:50:47.205Z"
+    },
+    {
+      "_id": "spec_6",
+      "slug": "systemic-sclerosis-myositis-sjogrens",
+      "title": {
+        "en": "Systemic Sclerosis, Myositis and Sjogren's Syndrome",
+        "bn": "স্ক্লেরোডার্মা, মায়োসাইটিস ও শুগ্রেন সিন্ড্রোম"
+      },
+      "summary": {
+        "en": "Specialist management of skin thickening, muscle weakness, and dry eye and dry mouth conditions.",
+        "bn": "ত্বক শক্ত হওয়া, মাংসপেশির দুর্বলতা এবং চোখ-মুখ শুকিয়ে যাওয়ার মতো জটিল কানেক্টিভ টিস্যু রোগের বিশেষায়িত চিকিৎসা।"
+      },
+      "what_it_is": {
+        "en": "These are connective tissue diseases, a group of autoimmune conditions that affect skin, muscles, glands, blood vessels and internal organs. Systemic sclerosis (scleroderma) causes skin thickening and can affect the lungs, gut and kidneys. Myositis causes muscle inflammation and weakness. Sjogren's syndrome mainly affects tear and saliva glands.",
+        "bn": "এগুলো বিরল অটোইমিউন রোগ যা রক্তনালী, ত্বক, মাংসপেশি ও লালাগ্রন্থিকে আক্রান্ত করে। স্ক্লেরোডার্মায় ত্বক শক্ত হয়ে যায়, মায়োসাইটিসে মাংসপেশিতে প্রদাহ ও দুর্বলতা হয় এবং শুগ্রেন সিন্ড্রোমে চোখ ও মুখ শুকিয়ে যায়।"
+      },
+      "common_symptoms": {
+        "en": [
+          "Fingers turning white, blue and red in the cold (Raynaud's phenomenon)",
+          "Tight, thick skin on fingers, hands or face",
+          "Difficulty climbing stairs, rising from a chair or lifting arms",
+          "Persistent dry eyes and dry mouth",
+          "Breathlessness or difficulty swallowing"
+        ],
+        "bn": [
+          "ঠান্ডা লাগলে হাতের আঙুল সাদা, নীল ও লাল হয়ে যাওয়া (রেনডস ফেনোমেনন)",
+          "হাত, মুখ বা আঙুলের ত্বক শক্ত ও টানটান হয়ে যাওয়া",
+          "চেয়ার থেকে উঠতে, সিঁড়ি বেয়ে উঠতে বা হাত উপরে তুলতে মাংসপেশিতে তীব্র দুর্বলতা",
+          "চোখ ও মুখ অতিরিক্ত শুকিয়ে যাওয়া",
+          "খাবার গিলতে অসুবিধা বা শ্বাসকষ্ট"
+        ]
+      },
+      "how_dr_sajib_helps": {
+        "en": "Early diagnosis uses clinical examination, immunology tests and video nailfold capillaroscopy, which shows characteristic changes in the tiny blood vessels of the fingers. Screening for lung and heart involvement is arranged early. Treatment is tailored to the organs affected and may include immunosuppressive and vascular therapies.",
+        "bn": "ভিডিও নেইলফোল্ড ক্যাপিলারোস্কপির মাধ্যমে আঙুলের সূক্ষ্ম রক্তনালী পরীক্ষা করে রোগ শনাক্ত করা হয়। ফুসফুস ও কিডনির স্ক্রিনিং করে প্রতিটি অঙ্গের জন্য প্রয়োজনীয় আধুনিক চিকিৎসা দেওয়া হয়।"
+      },
+      "when_to_see": {
+        "en": "New Raynaud's in an adult, skin tightening, unexplained muscle weakness or long-standing dry eyes and mouth.",
+        "bn": "হঠাৎ হাতের আঙুল নীল হয়ে যাওয়া, ত্বক শক্ত হয়ে যাওয়া বা মাংসপেশির দুর্বলতা দেখা দিলে দ্রুত বিশেষজ্ঞ চিকিৎসকের কাছে যান।"
+      },
+      "urgent_note": {
+        "en": "Seek urgent medical care if you have severe breathlessness, chest pain, blood in the urine or sputum, sudden weakness, a very high fever, or sudden vision loss.",
+        "bn": "তীব্র শ্বাসকষ্ট, বুকে ব্যথা, রক্তক্ষরণ, হঠাৎ দুর্বলতা বা দৃষ্টিহানি ঘটলে অবিলম্বে জরুরি বিভাগে যোগাযোগ করুন।"
+      },
+      "sort_order": 6,
+      "is_published": true,
+      "review_note": "DRAFT FOR DR. SAJIB TO APPROVE: the urgent note wording was added by the developer. Bangla translation needed.",
+      "createdAt": "2026-11-01T06:50:47.205Z",
+      "updatedAt": "2026-11-01T06:50:47.205Z"
+    },
+    {
+      "_id": "spec_7",
+      "slug": "vasculitis",
+      "title": {
+        "en": "Vasculitis",
+        "bn": "ভাস্কুলাইটিস (রক্তনালীর প্রদাহজনিত রোগ)"
+      },
+      "summary": {
+        "en": "Diagnosis and immune-targeted treatment for inflammation of blood vessels, to protect vital organs.",
+        "bn": "রক্তনালীর প্রদাহ দূর করে কিডনি, ফুসফুস ও মস্তিষ্ক সহ গুরুত্বপূর্ণ অঙ্গগুলোর সুরক্ষা নিশ্চিতকরণ।"
+      },
+      "what_it_is": {
+        "en": "Vasculitis is inflammation of the blood vessel walls, which can reduce blood flow to organs and tissues. It includes many conditions, such as giant cell arteritis, Takayasu arteritis, ANCA-associated vasculitis, Behcet's disease and IgA vasculitis. Some forms can rapidly affect the kidneys, lungs, nerves or eyes.",
+        "bn": "ভাস্কুলাইটিস হলো রক্তনালীর দেয়ালের প্রদাহ, যার ফলে অঙ্গগুলোতে রক্ত সঞ্চালন বাধাগ্রস্ত হয়। এটি দ্রুত কিডনি, স্নায়ু, ফুসফুস বা চোখের ক্ষতি করতে পারে।"
+      },
+      "common_symptoms": {
+        "en": [
+          "Unexplained fever, weight loss and fatigue",
+          "Skin rashes, purple spots or ulcers",
+          "Numbness or weakness in hands or feet",
+          "Blood in urine, coughing blood or persistent sinus problems",
+          "New headache or vision changes in older adults"
+        ],
+        "bn": [
+          "অকারণ দীর্ঘস্থায়ী জ্বর, ওজন হ্রাস ও অতিরিক্ত দুর্বলতা",
+          "ত্বকে লালচে-বেগুনি দাগ, ফুসকুড়ি বা ঘা",
+          "হাত বা পায়ে অবশ ভাব বা দুর্বলতা",
+          "প্রস্রাবে রক্ত, কাশির সাথে রক্ত বা দীর্ঘদিনের সাইনাসের সমস্যা",
+          "বয়স্কদের ক্ষেত্রে নতুন ধরনের মাথাব্যথা বা দৃষ্টিশক্তির পরিবর্তন"
+        ]
+      },
+      "how_dr_sajib_helps": {
+        "en": "Vasculitis needs fast and accurate diagnosis using blood tests, urine tests, imaging and sometimes biopsy. Treatment uses steroids and immunosuppressive or biologic medicines to control inflammation, followed by maintenance therapy and careful monitoring to prevent relapse and side effects.",
+        "bn": "বিশেষায়িত রক্ত পরীক্ষা, ইমিউনোলজি এবং প্রয়োজনে বায়োপসির মাধ্যমে দ্রুত রোগ নির্ণয় করে সঠিক মাত্রার স্টেরয়েড ও বায়োলজিক ওষুধের মাধ্যমে জীবনঘাতী ক্ষতি প্রতিরোধ করা হয়।"
+      },
+      "when_to_see": {
+        "en": "Unexplained fever with rash, kidney problems, nerve symptoms or multi-organ illness should be urgently assessed.",
+        "bn": "অকারণ জ্বরের সাথে ত্বকের দাগ, স্নায়ুর অবশতা বা কিডনির সমস্যা দেখা দিলে জরুরিভাবে মূল্যায়ন প্রয়োজন।"
+      },
+      "urgent_note": {
+        "en": "Seek urgent medical care if you have severe breathlessness, chest pain, blood in the urine or sputum, sudden weakness, a very high fever, or sudden vision loss.",
+        "bn": "তীব্র শ্বাসকষ্ট, প্রস্রাবে রক্ত বা হঠাৎ অঙ্গপ্রত্যঙ্গের দুর্বলতা দেখা দিলে দ্রুত জরুরি চিকিৎসা নিন।"
+      },
+      "sort_order": 7,
+      "is_published": true,
+      "review_note": "DRAFT FOR DR. SAJIB TO APPROVE: the urgent note wording was added by the developer. Bangla translation needed.",
+      "createdAt": "2026-11-01T06:50:47.205Z",
+      "updatedAt": "2026-11-01T06:50:47.205Z"
+    },
+    {
+      "_id": "spec_8",
+      "slug": "osteoporosis-bone-health",
+      "title": {
+        "en": "Osteoporosis and Bone Health",
+        "bn": "অস্টিওপোরোসিস ও হাড়ের ক্ষয়রোগ"
+      },
+      "summary": {
+        "en": "Assessment of bone strength and treatment to reduce the risk of fractures.",
+        "bn": "হাড়ের ঘনত্ব পরীক্ষা, ক্ষয় নিরূপণ এবং ফ্র্যাকচার বা হাড় ভাঙার ঝুঁকি হ্রাসে কার্যকর চিকিৎসা।"
+      },
+      "what_it_is": {
+        "en": "Osteoporosis is a condition in which bones become thin and fragile, so they break easily. It often has no symptoms until a fracture occurs, commonly in the spine, hip or wrist. Risk is higher after menopause, with older age, long-term steroid use, inflammatory arthritis, low body weight and vitamin D deficiency.",
+        "bn": "অস্টিওপোরোসিসে হাড়ের ভেতরে ক্যালসিয়াম কমে তা ছিদ্রযুক্ত ও ভঙ্গুর হয়ে পড়ে। ফলে সামান্য আঘাতে বা পড়ে গেলেই মেরুদণ্ড, কোমর বা কব্জির হাড় ভেঙে যেতে পারে।"
+      },
+      "common_symptoms": {
+        "en": [
+          "Fracture after a minor fall",
+          "Loss of height or a stooped back",
+          "Sudden back pain from a spinal fracture"
+        ],
+        "bn": [
+          "সামান্য আঘাতে বা স্বাভাবিক চলাফেরায় হাড় ভেঙে যাওয়া",
+          "উচ্চতা কমে যাওয়া বা পিঠ বাঁকা হয়ে যাওয়া",
+          "মেরুদণ্ডের হাড় ক্ষয়ের কারণে হঠাৎ তীব্র পিঠ বা কোমর ব্যথা"
+        ]
+      },
+      "how_dr_sajib_helps": {
+        "en": "Assessment includes risk factor review, bone density (DXA) scan and blood tests for secondary causes. Treatment combines calcium and vitamin D, exercise and fall prevention, and bone-strengthening medicines when indicated. Patients on long-term steroids receive bone protection as part of routine care.",
+        "bn": "ডেক্সা স্ক্যান (DXA) ও রক্তের ক্যালসিয়াম/ভিটামিন-ডি পরীক্ষা করে হাড় মজবুত করার আধুনিক বিসফসফোনেট বা অন্যান্য ওষুধ প্রয়োগ করা হয় এবং পড়ে যাওয়া রোধে পরামর্শ দেওয়া হয়।"
+      },
+      "when_to_see": {
+        "en": "Anyone with a fracture after a minor fall, women after menopause with risk factors, or people on long-term steroid treatment.",
+        "bn": "মেনোপজ পরবর্তী নারী, দীর্ঘমেয়াদে স্টেরয়েড গ্রহণকারী ব্যক্তি বা সামান্য আঘাতে হাড় ভাঙার ইতিহাস থাকলে পরীক্ষা করান।"
+      },
+      "urgent_note": {
+        "en": "",
+        "bn": ""
+      },
+      "sort_order": 8,
+      "is_published": true,
+      "review_note": "Bangla translation needed (reviewed, not machine translated).",
+      "createdAt": "2026-11-01T06:50:47.205Z",
+      "updatedAt": "2026-11-01T06:50:47.205Z"
+    },
+    {
+      "_id": "spec_9",
+      "slug": "juvenile-childhood-arthritis",
+      "title": {
+        "en": "Juvenile and Childhood Arthritis",
+        "bn": "শিশুদের বাত ও জয়েন্টের প্রদাহ (জেআইএ)"
+      },
+      "summary": {
+        "en": "Gentle, age-appropriate care for children with joint inflammation, to protect growth and normal childhood activity.",
+        "bn": "শিশুদের শারীরিক বৃদ্ধি ও স্বাভাবিক খেলাধুলা সচল রাখতে কোমল ও বয়সোপযোগী বাতের চিকিৎসা।"
+      },
+      "what_it_is": {
+        "en": "Juvenile idiopathic arthritis (JIA) is arthritis that starts before age 16 and lasts for more than six weeks. Children can also develop lupus, vasculitis and other autoimmune conditions. Untreated inflammation can affect growth, joint development and, in some types, the eyes.",
+        "bn": "১৬ বছর বয়সের পূর্বে শুরু হওয়া বাতের সমস্যাকে জুভেনাইল ইডিওপ্যাথিক আর্থ্রাইটিস (JIA) বলে। সঠিক সময়ে চিকিৎসা না দিলে শিশুর স্বাভাবিক বৃদ্ধি ও জয়েন্টের গঠন নষ্ট হতে পারে।"
+      },
+      "common_symptoms": {
+        "en": [
+          "Limping, especially in the morning",
+          "Swollen knee, ankle or wrist",
+          "Reluctance to walk, play or use a hand",
+          "Recurrent fever with rash",
+          "Eye redness or blurred vision"
+        ],
+        "bn": [
+          "সকালে ঘুম থেকে ওঠার পর শিশুর খুঁড়িয়ে হাঁটা",
+          "হাঁটু, গোড়ালি বা কব্জি ফুলে থাকা ও গরম লাগা",
+          "খেলাধুলা বা দৌড়াদৌড়িতে অনীহা প্রকাশ করা",
+          "অকারণ ঘন ঘন জ্বর ও গায়ে ফুসকুড়ি",
+          "চোখ লাল হওয়া বা দৃষ্টিতে ঝাপসা দেখা"
+        ]
+      },
+      "how_dr_sajib_helps": {
+        "en": "Children are assessed with attention to growth, development and family concerns. Ultrasound is especially helpful because it is painless and radiation-free. Treatment includes medicines suited to children, joint injections where needed, physiotherapy, and regular eye screening. Families receive clear guidance on school, activity and long-term outlook.",
+        "bn": "বেদনাহীন আল্ট্রাসাউন্ডের সাহায্যে জয়েন্ট পরীক্ষা করা হয়। শিশুদের উপযুক্ত নিরাপদ ওষুধ, ফিজিওথেরাপি এবং চোখের সুরক্ষায় নিয়মিত চেকআপের ব্যবস্থা করা হয়।"
+      },
+      "when_to_see": {
+        "en": "A child with joint swelling, limping or stiffness lasting more than a few weeks, or recurrent fever with joint pain.",
+        "bn": "শিশুর জয়েন্ট ফোলা, খুঁড়িয়ে হাঁটা বা সকালের আড়ষ্টতা কয়েক সপ্তাহের বেশি থাকলে দ্রুত রিউমাটোলজিস্ট দেখান।"
+      },
+      "urgent_note": {
+        "en": "Seek urgent medical care if you have severe breathlessness, chest pain, blood in the urine or sputum, sudden weakness, a very high fever, or sudden vision loss.",
+        "bn": "তীব্র শ্বাসকষ্ট, উচ্চ জ্বর বা হঠাৎ অঙ্গপ্রত্যঙ্গের দুর্বলতা থাকলে সাথে সাথে জরুরি চিকিৎসা কেন্দ্রে যান।"
+      },
+      "sort_order": 9,
+      "is_published": true,
+      "review_note": "DRAFT FOR DR. SAJIB TO APPROVE: the urgent note wording was added by the developer. Bangla translation needed.",
+      "createdAt": "2026-11-01T06:50:47.205Z",
+      "updatedAt": "2026-11-01T06:50:47.205Z"
+    },
+    {
+      "_id": "spec_10",
+      "slug": "fibromyalgia-soft-tissue-rheumatism",
+      "title": {
+        "en": "Fibromyalgia and Soft Tissue Rheumatism",
+        "bn": "ফাইব্রোমায়ালজিয়া ও মাংসপেশির দীর্ঘস্থায়ী বাত"
+      },
+      "summary": {
+        "en": "Management of widespread pain and fatigue, and common problems such as frozen shoulder, tennis elbow and tendonitis.",
+        "bn": "সারাদেহে দীর্ঘস্থায়ী ব্যথা, ক্লান্তি এবং ফ্রোজেন শোল্ডার, টেনিস এলবোর মতো সমস্যার সমন্বিত চিকিৎসা।"
+      },
+      "what_it_is": {
+        "en": "Fibromyalgia is a long-term condition causing widespread body pain, tiredness and poor sleep, related to how the nervous system processes pain. Soft tissue rheumatism covers painful conditions of tendons, ligaments and bursae, such as frozen shoulder, tennis elbow, plantar fasciitis and trigger finger.",
+        "bn": "ফাইব্রোমায়ালজিয়া হলো সারাদেহের স্নায়ু ও মাংসপেশির অতি-সংবেদনশীলতাজনিত ব্যথা ও ঘুমের ব্যাঘাত। এছাড়াও ফ্রোজেন শোল্ডার, টেনিস এলবো ও গোড়ালির ব্যথার মতো সমস্যা এতে অন্তর্ভুক্ত।"
+      },
+      "common_symptoms": {
+        "en": [
+          "Widespread aching pain for more than three months",
+          "Fatigue, unrefreshing sleep and poor concentration",
+          "Shoulder pain with restricted movement",
+          "Pain at the elbow, heel or wrist with use",
+          "Finger catching or locking"
+        ],
+        "bn": [
+          "তিন মাসের বেশি সময় ধরে সারাদেহে তীব্র ব্যথা ও কামড়ানো অনুভূতি",
+          "পর্যাপ্ত ঘুমের পরও ক্লান্তি ও সতেজতার অভাব",
+          "কাঁধ জমে যাওয়া এবং হাত উপরে তুলতে না পারা (ফ্রোজেন শোল্ডার)",
+          "কনুই, কব্জি বা গোড়ালিতে তীব্র ব্যথা",
+          "আঙুল ভাঁজ করলে আটকে যাওয়া (ট্রিগার ফিঙ্গার)"
+        ]
+      },
+      "how_dr_sajib_helps": {
+        "en": "Inflammatory and other conditions are excluded with targeted examination, tests and ultrasound. Fibromyalgia care focuses on education, graded exercise, sleep improvement and selected medicines. Soft tissue problems are treated with exercise, activity modification and ultrasound-guided injections when appropriate.",
+        "bn": "অন্যান্য রোগ বাদ দিয়ে সমন্বিত কাউন্সেলিং, ঘুমের উন্নতি, বিশেষায়িত ব্যায়াম এবং প্রয়োজনে আল্ট্রাসাউন্ড গাইডেড লোকাল ইনজেকশনের মাধ্যমে দ্রুত আরাম প্রদান করা হয়।"
+      },
+      "when_to_see": {
+        "en": "Persistent widespread pain, or a localised tendon or shoulder problem that has not improved after a few weeks of simple treatment.",
+        "bn": "দীর্ঘদিন সারাদেহে ব্যথা থাকলে বা কাঁধ-কনুইয়ের ব্যথা সাধারণ ওষুধে ভালো না হলে বিশেষজ্ঞের পরামর্শ নিন।"
+      },
+      "urgent_note": {
+        "en": "",
+        "bn": ""
+      },
+      "sort_order": 10,
+      "is_published": true,
+      "review_note": "Bangla translation needed (reviewed, not machine translated).",
+      "createdAt": "2026-11-01T06:50:47.205Z",
+      "updatedAt": "2026-11-01T06:50:47.205Z"
+    }
+  ],
+  "specialServices": [
+    {
+      "_id": "srv_1",
+      "slug": "pocus-musculoskeletal-ultrasound",
+      "title": {
+        "en": "Point-of-Care Musculoskeletal Ultrasound (POCUS)",
+        "bn": "পয়েন্ট-অফ-কেয়ার মাসকুলোস্কেলেটাল আল্ট্রাসাউন্ড (POCUS)"
+      },
+      "summary": {
+        "en": "In-clinic ultrasound to detect early joint inflammation and guide treatment decisions during the same visit.",
+        "bn": "চেম্বারে রিয়েল-টাইম আল্ট্রাসাউন্ডের মাধ্যমে জয়েন্টের সূক্ষ্ম প্রদাহ শনাক্ত ও একই সাথে সঠিক সিদ্ধান্ত গ্রহণ।"
+      },
+      "what_it_is": {
+        "en": "Musculoskeletal ultrasound uses sound waves to show joints, tendons, ligaments and soft tissues in real time. Performed by the rheumatologist during the consultation, it adds a detailed picture to the physical examination. It is painless, safe and uses no radiation.",
+        "bn": "এটি একটি বিশেষায়িত আল্ট্রাসাউন্ড পরীক্ষা যা রিউমাটোলজিস্ট সরাসরি চেম্বারে নিজে সম্পন্ন করেন। এতে কোনো প্রকার তেজস্ক্রিয়তা বা পার্শ্বপ্রতিক্রিয়া নেই এবং তাৎক্ষণিক জয়েন্টের ভেতরের অবস্থা দেখা যায়।"
+      },
+      "who_needs_it": {
+        "en": [
+          "People with joint pain where it is unclear whether inflammation is present",
+          "Suspected early rheumatoid arthritis or psoriatic arthritis",
+          "Gout and other crystal diseases",
+          "Tendon and shoulder problems",
+          "Patients on treatment, to check whether inflammation has truly settled"
+        ],
+        "bn": [
+          "যাঁদের জয়েন্টে ব্যথা আছে কিন্তু প্রদাহ স্পষ্ট নয়",
+          "প্রাথমিক পর্যায়ের রিউমাটয়েড বা সোরিয়াটিক আর্থ্রাইটিসের সন্দেহ থাকলে",
+          "গেঁটেবাত বা ক্রিস্টাল জমার সঠিক অবস্থান জানতে",
+          "টেন্ডন ও কাঁধের ব্যথার সুনির্দিষ্ট কারণ নির্ণয়ে",
+          "ওষুধে প্রদাহ কতটা কমেছে তা নিশ্চিত করতে"
+        ]
+      },
+      "what_to_expect": {
+        "en": "Gel is applied over the joint, and a small probe is moved gently across the skin. Each joint takes a few minutes. Results are explained immediately, so treatment decisions can be made in the same visit.",
+        "bn": "জয়েন্টের ওপর সাধারণ জেল লাগিয়ে প্রোব ঘুরিয়ে মাত্র কয়েক মিনিটে পরীক্ষা সম্পন্ন করা হয় এবং সাথে সাথেই ফলাফল বুঝিয়ে দেওয়া হয়।"
+      },
+      "benefits": {
+        "en": "Ultrasound can detect inflammation that is missed on examination or X-ray. This allows earlier diagnosis, more accurate monitoring and safer, more precise injections.",
+        "bn": "এক্স-রেতে ধরা পড়ার কয়েক মাস আগেই জয়েন্টের প্রদাহ ধরা পড়ে, যার ফলে অপ্রয়োজনীয় পরীক্ষা ছাড়াই তাৎক্ষণিক সঠিক চিকিৎসা শুরু করা যায়।"
+      },
+      "how_dr_sajib_helps": {
+        "en": "",
+        "bn": ""
+      },
+      "when_to_see": {
+        "en": "",
+        "bn": ""
+      },
+      "urgent_note": {
+        "en": "",
+        "bn": ""
+      },
+      "sort_order": 1,
+      "is_published": true,
+      "review_note": "Dr. Sajib to confirm procedure details (timings, preparation) as practice can vary by chamber. Bangla translation needed.",
+      "createdAt": "2026-11-01T06:50:47.206Z",
+      "updatedAt": "2026-11-01T06:50:47.206Z"
+    },
+    {
+      "_id": "srv_2",
+      "slug": "video-nailfold-capillaroscopy",
+      "title": {
+        "en": "Video Nailfold Capillaroscopy",
+        "bn": ""
+      },
+      "summary": {
+        "en": "Painless, magnified imaging of the tiny blood vessels at the fingernails, to help diagnose scleroderma, Raynaud's and related diseases.",
+        "bn": ""
+      },
+      "what_it_is": {
+        "en": "Capillaroscopy uses a high-magnification video camera to examine the small blood vessels (capillaries) at the base of the fingernails. Certain autoimmune diseases cause typical changes in these vessels, sometimes years before other symptoms appear.",
+        "bn": ""
+      },
+      "who_needs_it": {
+        "en": [
+          "People whose fingers change colour in the cold (Raynaud's phenomenon)",
+          "Suspected systemic sclerosis (scleroderma)",
+          "Suspected dermatomyositis or mixed connective tissue disease",
+          "Monitoring of known connective tissue disease"
+        ],
+        "bn": []
+      },
+      "what_to_expect": {
+        "en": "A drop of oil is placed on the skin near the nail, and the camera is held gently against each finger. The test is painless, takes about 15 to 20 minutes, and needs no preparation. Patients should avoid cutting or manicuring cuticles for a few weeks before the test.",
+        "bn": ""
+      },
+      "benefits": {
+        "en": "Capillaroscopy helps separate harmless Raynaud's from Raynaud's linked to autoimmune disease. It supports earlier diagnosis of scleroderma and helps guide monitoring and treatment.",
+        "bn": ""
+      },
+      "how_dr_sajib_helps": {
+        "en": "",
+        "bn": ""
+      },
+      "when_to_see": {
+        "en": "",
+        "bn": ""
+      },
+      "urgent_note": {
+        "en": "",
+        "bn": ""
+      },
+      "sort_order": 2,
+      "is_published": true,
+      "review_note": "Dr. Sajib to confirm procedure details (timings, preparation) as practice can vary by chamber. Bangla translation needed.",
+      "createdAt": "2026-11-01T06:50:47.206Z",
+      "updatedAt": "2026-11-01T06:50:47.206Z"
+    },
+    {
+      "_id": "srv_3",
+      "slug": "synovial-biopsy",
+      "title": {
+        "en": "Synovial Biopsy",
+        "bn": "সাইনোভিয়াল বায়োপসি ও বিশেষ বায়োলজিক মনিটরিং"
+      },
+      "summary": {
+        "en": "Minimally invasive sampling of the joint lining for precise diagnosis in difficult or unclear arthritis.",
+        "bn": "অস্পষ্ট জয়েন্টের বাতের প্রকৃত কারণ নির্ণয়ে জয়েন্টের আবরণের মাইক্রোস্কোপিক পরীক্ষা।"
+      },
+      "what_it_is": {
+        "en": "The synovium is the thin lining inside a joint, where inflammation in arthritis begins. A synovial biopsy takes small tissue samples from this lining, usually guided by ultrasound, for laboratory examination.",
+        "bn": "জয়েন্টের ভেতরের আস্তরণ (সাইনোভিয়াম) থেকে সূক্ষ্ম টিস্যু সংগ্রহ করে ল্যাবরেটরিতে পরীক্ষার আধুনিক পদ্ধতি।"
+      },
+      "who_needs_it": {
+        "en": [
+          "Arthritis in a single joint where the cause is unclear",
+          "Suspected infection, including tuberculosis of the joint",
+          "Persistent arthritis not responding to treatment",
+          "Suspected rare conditions affecting the joint lining"
+        ],
+        "bn": [
+          "দীর্ঘদিনেও যে বাতের সঠিক কারণ নির্ণয় করা সম্ভব হয়নি",
+          "জয়েন্টের যক্ষ্মা বা বিরল প্রদাহ সন্দেহ হলে"
+        ]
+      },
+      "what_to_expect": {
+        "en": "The procedure is done under local anaesthetic. A fine needle is guided into the joint using ultrasound, and several small samples are taken. Most people go home the same day and resume light activity soon after. Results are discussed at a follow-up visit.",
+        "bn": "লোকাল অবশ করে আল্ট্রাসাউন্ড নির্দেশনায় অত্যন্ত নিরাপদে নমুনা সংগ্রহ করা হয়।"
+      },
+      "benefits": {
+        "en": "Tissue diagnosis gives answers that blood tests and imaging cannot, helping avoid delayed or incorrect treatment.",
+        "bn": "ভুল চিকিৎসার হাত থেকে রক্ষা করে সুনির্দিষ্ট এবং সঠিক ওষুধ নিশ্চিত করে।"
+      },
+      "how_dr_sajib_helps": {
+        "en": "",
+        "bn": ""
+      },
+      "when_to_see": {
+        "en": "",
+        "bn": ""
+      },
+      "urgent_note": {
+        "en": "",
+        "bn": ""
+      },
+      "sort_order": 3,
+      "is_published": true,
+      "review_note": "Dr. Sajib to confirm procedure details (timings, preparation) as practice can vary by chamber. Bangla translation needed.",
+      "createdAt": "2026-11-01T06:50:47.206Z",
+      "updatedAt": "2026-11-01T06:50:47.206Z"
+    },
+    {
+      "_id": "srv_4",
+      "slug": "ultrasound-guided-joint-injection-aspiration",
+      "title": {
+        "en": "Ultrasound-guided Joint Injection and Aspiration",
+        "bn": ""
+      },
+      "summary": {
+        "en": "Accurate, safer needle placement for draining joint fluid or delivering medicine exactly where it is needed.",
+        "bn": ""
+      },
+      "what_it_is": {
+        "en": "Joint aspiration removes fluid from a swollen joint, and joint injection delivers medicine, usually a steroid, into a joint, tendon sheath or bursa. Using ultrasound guidance lets the doctor see the needle in real time.",
+        "bn": ""
+      },
+      "who_needs_it": {
+        "en": [
+          "Swollen joints needing fluid removal for relief or testing (for example, gout crystals or infection)",
+          "Persistent inflammation in one or a few joints despite medicines",
+          "Painful osteoarthritis flares",
+          "Frozen shoulder, trigger finger, tennis elbow and bursitis"
+        ],
+        "bn": []
+      },
+      "what_to_expect": {
+        "en": "The skin is cleaned, and local anaesthetic may be used. The procedure usually takes 10 to 20 minutes. Patients are advised to rest the joint for 24 to 48 hours afterwards.",
+        "bn": ""
+      },
+      "benefits": {
+        "en": "Ultrasound guidance improves accuracy, especially in small, deep or difficult joints. This means better results, less discomfort and fewer complications.",
+        "bn": ""
+      },
+      "how_dr_sajib_helps": {
+        "en": "",
+        "bn": ""
+      },
+      "when_to_see": {
+        "en": "",
+        "bn": ""
+      },
+      "urgent_note": {
+        "en": "",
+        "bn": ""
+      },
+      "sort_order": 4,
+      "is_published": true,
+      "review_note": "Dr. Sajib to confirm procedure details (timings, preparation) as practice can vary by chamber. Bangla translation needed.",
+      "createdAt": "2026-11-01T06:50:47.206Z",
+      "updatedAt": "2026-11-01T06:50:47.206Z"
+    },
+    {
+      "_id": "srv_5",
+      "slug": "biologic-dmard-therapy",
+      "title": {
+        "en": "Biologic and DMARD Therapy",
+        "bn": ""
+      },
+      "summary": {
+        "en": "Safe planning, screening and monitoring of advanced medicines for long-term control of inflammatory and autoimmune disease.",
+        "bn": ""
+      },
+      "what_it_is": {
+        "en": "Disease-modifying anti-rheumatic drugs (DMARDs), such as methotrexate, sulfasalazine and hydroxychloroquine, slow or stop disease activity. Biologic and targeted therapies act on specific parts of the immune system and are used when standard treatment is not enough.",
+        "bn": ""
+      },
+      "who_needs_it": {
+        "en": [
+          "Rheumatoid arthritis, spondyloarthritis and psoriatic arthritis",
+          "Lupus, vasculitis and other connective tissue diseases",
+          "Patients with active disease despite standard treatment"
+        ],
+        "bn": []
+      },
+      "what_to_expect": {
+        "en": "Before starting, patients are screened for tuberculosis, hepatitis and other infections, and vaccinations are reviewed. Regular blood tests and clinic reviews monitor response and safety. Treatment is adjusted to reach remission or the lowest possible disease activity.",
+        "bn": ""
+      },
+      "benefits": {
+        "en": "Modern therapies can control disease, prevent joint damage and help patients return to work and family life. Careful screening and monitoring keep treatment safe, which is especially important in Bangladesh, where tuberculosis screening is essential.",
+        "bn": ""
+      },
+      "how_dr_sajib_helps": {
+        "en": "",
+        "bn": ""
+      },
+      "when_to_see": {
+        "en": "",
+        "bn": ""
+      },
+      "urgent_note": {
+        "en": "",
+        "bn": ""
+      },
+      "sort_order": 5,
+      "is_published": true,
+      "review_note": "Dr. Sajib to confirm procedure details (timings, preparation) as practice can vary by chamber. Bangla translation needed.",
+      "createdAt": "2026-11-01T06:50:47.206Z",
+      "updatedAt": "2026-11-01T06:50:47.206Z"
+    }
+  ],
+  "categories": [
+    {
+      "_id": "cat_1",
+      "slug": "gout-and-diet",
+      "name": {
+        "en": "Gout and Diet",
+        "bn": "গেঁটে বাত ও খাবার"
+      }
+    },
+    {
+      "_id": "cat_2",
+      "slug": "arthritis-care",
+      "name": {
+        "en": "Arthritis Care",
+        "bn": "আর্থ্রাইটিসের যত্ন"
+      }
+    },
+    {
+      "_id": "cat_3",
+      "slug": "lupus-and-autoimmune",
+      "name": {
+        "en": "Lupus and Autoimmune",
+        "bn": "লুপাস ও অটোইমিউন রোগ"
+      }
+    },
+    {
+      "_id": "cat_4",
+      "slug": "joint-protection",
+      "name": {
+        "en": "Joint Protection",
+        "bn": "জয়েন্টের সুরক্ষা"
+      }
+    },
+    {
+      "_id": "cat_5",
+      "slug": "medicines",
+      "name": {
+        "en": "Medicines",
+        "bn": "ওষুধ"
+      }
+    },
+    {
+      "_id": "cat_6",
+      "slug": "news",
+      "name": {
+        "en": "News",
+        "bn": "খবর"
+      }
+    }
+  ],
+  "posts": [
+    {
+      "_id": "post_1",
+      "slug": "gout-and-diet-what-to-eat-and-avoid",
+      "category_slug": "gout-and-diet",
+      "title": {
+        "en": "Gout and diet: what to eat and avoid",
+        "bn": "গেঁটেবাত ও খাদ্যাভ্যাস: কী খাবেন এবং কী পরিহার করবেন"
+      },
+      "excerpt": {
+        "en": "Food is not the only cause of gout, but what you eat and drink can make attacks more or less likely. Here is a simple guide, with a note for Ramadan and Eid.",
+        "bn": "খাবারই গেঁটেবাতের একমাত্র কারণ নয়, তবে সঠিক খাদ্যাভ্যাস বাতের তীব্র আক্রমণ প্রতিরোধে অত্যন্ত কার্যকরী ভূমিকা রাখে। রমজান ও ঈদের জন্য বিশেষ নির্দেশনাসহ সহজ পরামর্শ।"
+      },
+      "body": {
+        "en": "Gout is a type of arthritis caused by too much uric acid in the blood. When uric acid builds up, it can form tiny crystals inside a joint, often the big toe, and cause sudden, very painful swelling. Food is not the only cause of gout, but what you eat and drink can make attacks more or less likely.\n\n## Foods and drinks to limit\n\n- **Organ meat**, such as liver, kidney and brain.\n- **Red meat**, such as beef and mutton, especially large portions.\n- **Shellfish**, such as prawns, shrimp and crab.\n- **Sugary drinks**, such as soft drinks, packaged juices and energy drinks.\n- **Alcohol**, especially beer.\n\nYou do not have to give up every one of these forever. Smaller portions, eaten less often, make a real difference.\n\n## Foods that are usually fine\n\n- Vegetables, including green leafy vegetables.\n- Rice, roti and other grains.\n- Low-fat milk and yoghurt (doi).\n- Eggs, and moderate portions of fish and chicken.\n- Fruit, eaten whole rather than as juice.\n\nMany people are told to avoid dal and some vegetables. Plant foods do not seem to raise the risk of attacks in the way that meat and sugary drinks do, so most people can keep eating them. Ask your doctor if you are not sure what is right for you.\n\n## Drink enough water\n\nWater helps your kidneys remove uric acid. Drink enough through the day that your urine stays pale yellow, unless your doctor has asked you to limit fluids because of a heart or kidney problem.\n\n## Do not stop your uric-acid medicine on your own\n\nMedicines that lower uric acid work slowly, over months. Some people stop taking them when the pain goes away, or during an attack. This often leads to more attacks later. If you have side effects or questions, talk to your doctor before you change anything.\n\n## A note for Ramadan and Eid\n\nDuring Ramadan, long hours without water can raise uric acid. Drink plenty of water between iftar and sehri, and go easy on fried and very rich food.\n\nAt Eid, many families cook large amounts of beef and mutton, often with organ meat. Enjoy a small portion, fill the rest of your plate with rice, vegetables and salad, and keep drinking water. If you take medicine for gout, ask your doctor before Ramadan how to time your doses.\n\n## When to get help\n\nContact a doctor quickly if you have a hot, swollen joint together with fever, because this can be an infection. Book a visit if attacks keep coming back, or if you notice lumps under the skin near your joints.\n\nDiet alone rarely controls gout fully. Together with the right medicine and regular check-ups, most people can have far fewer attacks.\n\n---\n\n*The information on this page is for general education only and does not replace a personal consultation. Please book an appointment for advice about your own condition.*",
+        "bn": "গেঁটেবাত হলো রক্তে অতিরিক্ত ইউরিক অ্যাসিড জমার কারণে সৃষ্ট এক ধরণের আর্থ্রাইটিস। রক্তে ইউরিক অ্যাসিড বেশি হলে জয়েন্টের ভেতরে সূক্ষ্ম ক্রিস্টাল জমা হয়ে হঠাৎ তীব্র ব্যথার সৃষ্টি হয়। খাবারই এর একমাত্র কারণ নয়, তবে সঠিক খাদ্যাভ্যাস ব্যথার আক্রমণ কমাতে সাহায্য করে।\n\n## যেসব খাবার সীমিত করবেন\n\n- **অর্গান মিট বা গিলা-কলিজা, মগজ ও গুর্দা**।\n- **রেড মিট (গরু ও খাসির মাংস)**, বিশেষ করে অতিরিক্ত চর্বিযুক্ত মাংস।\n- **সামুদ্রিক মাছ ও চিংড়ি** (যেমন- চিংড়ি, কাঁকড়া)।\n- **মিষ্টি পানীয় ও কোমল পানীয়**, প্রক্রিয়াজাত ফলের জুস ও এনার্জি ড্রিংক।\n- **অ্যালকোহল**।\n\nএই খাবারগুলো সারাজীবনের জন্য পুরোপুরি বাদ দিতে হবে এমন নয়। পরিমিত পরিমাণে ও মাঝে মাঝে খাওয়া অনেক ভালো ফল দেয়।\n\n## যেসব খাবার নির্ভয়ে খেতে পারেন\n\n- শাকসবজি, বিশেষ করে সবুজ শাকসবজি।\n- ভাত, রুটি ও অন্যান্য শস্যদানা।\n- লো-ফ্যাট দুধ ও দই।\n- ডিম ও পরিমিত পরিমাণে দেশি মাছ ও মুরগির মাংস।\n- টাটকা ফলমূল।\n\nঅনেকেই ডাল ও কিছু সবজি খেতে নিষেধ করেন। কিন্তু উদ্ভিজ্জ খাবার বাতের আক্রমণ সেভাবে বাড়ায় না, তাই চিকিৎসকের বিশেষ নিষেধ না থাকলে এগুলো খাওয়া যায়।\n\n## পর্যাপ্ত পানি পান করুন\n\nপানি কিডনির মাধ্যমে অতিরিক্ত ইউরিক অ্যাসিড শরীর থেকে বের করে দিতে সাহায্য করে। প্রতিদিন পর্যাপ্ত পানি পান করুন যাতে প্রস্রাবের রঙ স্বাভাবিক ও হালকা থাকে।\n\n## চিকিৎসকের পরামর্শ ছাড়া ওষুধ বন্ধ করবেন না\n\nইউরিক অ্যাসিড কমানোর ওষুধ দীর্ঘমেয়াদে ধীরে ধীরে কাজ করে। ব্যথা কমে গেলে ওষুধ বন্ধ করে দিলে পরবর্তীতে রোগ আরও ভয়াবহভাবে ফিরে আসতে পারে।\n\n## রমজান ও ঈদের সময় কিছু পরামর্শ\n\nরমজানে দীর্ঘ সময় পানাহার থেকে বিরত থাকলে ইউরিক অ্যাসিড সাময়িক বৃদ্ধি পেতে পারে। ইফতার ও সেহরির মধ্যবর্তী সময়ে পর্যাপ্ত পানি পান করুন। ঈদে অতিরিক্ত মাংস খাওয়া পরিহার করে শাকসবজি ও সালাদ বেশি খান।\n\n## কখন জরুরি সাহায্য নেবেন\n\nযদি জয়েন্ট ফুলে যাওয়ার সাথে প্রচণ্ড জ্বর থাকে, তবে দ্রুত চিকিৎসকের কাছে যান, কারণ এটি ইনফেকশন হতে পারে।"
+      },
+      "cover_image": null,
+      "published_at": "2026-10-25T00:00:00.000Z",
+      "is_published": true,
+      "review_note": "DRAFT FOR DOCTOR'S REVIEW: written by the developer from general patient-education sources. Dr. Sajib should check and approve the wording. Bangla version needed.",
+      "createdAt": "2026-11-01T06:50:47.206Z",
+      "updatedAt": "2026-11-01T06:50:47.206Z"
+    },
+    {
+      "_id": "post_2",
+      "slug": "morning-stiffness-when-is-it-more-than-a-stiff-body",
+      "category_slug": "arthritis-care",
+      "title": {
+        "en": "Morning stiffness: when is it more than just a stiff body?",
+        "bn": "সকালের জয়েন্টের আড়ষ্টতা: কখন এটি সাধারণ শক্ত ভাব থেকে বেশি কিছু?"
+      },
+      "excerpt": {
+        "en": "A little stiffness after waking is common. Stiffness that lasts a long time every morning, with swollen joints, can be a sign of inflammatory arthritis.",
+        "bn": "ঘুম থেকে ওঠার পর সামান্য শক্ত লাগা স্বাভাবিক। তবে ফোলা জয়েন্টের সাথে সকালে আধা ঘণ্টার বেশি সময় আড়ষ্টতা থাকা প্রদাহজনিত বাতের লক্ষণ হতে পারে।"
+      },
+      "body": {
+        "en": "Most people feel a little stiff when they get out of bed, especially as they get older. This kind of stiffness usually fades within a few minutes once you start moving. But stiffness that lasts a long time every morning can be a sign of inflammatory arthritis, which needs a specialist's assessment.\n\n## Ordinary stiffness\n\n- Lasts a few minutes, usually well under 30 minutes.\n- Gets better quickly once you move around.\n- Often follows unusual exercise, a long journey or a poor night's sleep.\n- Is common in osteoarthritis, where stiffness after rest is short.\n\n## Stiffness that may be more\n\nTalk to a doctor if you notice:\n\n- Stiffness that lasts more than 30 minutes, sometimes an hour or more, on most mornings.\n- Swollen, warm or tender joints, especially in the fingers, wrists or feet.\n- The same joints affected on both sides of the body.\n- Trouble making a fist, holding a cup or turning a key in the morning.\n- Lower back pain and stiffness that wakes you at night and feels better with movement rather than rest.\n- Tiredness, a mild fever or weight loss along with the joint problems.\n\nThese can be signs of conditions such as rheumatoid arthritis or spondyloarthritis, which includes ankylosing spondylitis. In these conditions the immune system causes inflammation in the joints or the spine.\n\n## Why early assessment matters\n\nOngoing inflammation can slowly damage joints. Treatment tends to work best when it starts early. A rheumatologist can examine your joints, arrange blood tests and, where useful, use ultrasound to look for inflammation that does not yet show on an X-ray.\n\n## What you can do now\n\n- Keep a simple diary: when you wake up, how long the stiffness lasts, and which joints are affected.\n- Take photos of any swollen joints, because swelling may settle before your appointment.\n- Note any family history of arthritis, psoriasis or bowel inflammation.\n- Avoid steroid tablets or injections taken without a prescription. They can have serious side effects and can make the diagnosis harder.\n\n## When to book a visit\n\nBook an assessment if morning stiffness of more than 30 minutes, or swelling in your joints, has lasted for more than six weeks. If you are a young adult with back pain and night stiffness for more than three months, a specialist opinion is also a good idea.\n\nStiffness is easy to ignore, especially when life is busy. Paying attention to how long it lasts is a simple way to know when to ask for help.\n\n---\n\n*The information on this page is for general education only and does not replace a personal consultation. Please book an appointment for advice about your own condition.*",
+        "bn": "ঘুম থেকে ওঠার পর শরীরে কিছুটা টানটান ভাব লাগা অনেকের ক্ষেত্রেই ঘটে থাকে। তবে সাধারণ আড়ষ্টতা বিছানা ছাড়ার কয়েক মিনিটের মধ্যেই চলাফেরা করলে কেটে যায়। কিন্তু দীর্ঘস্থায়ী আড়ষ্টতা রিউমাটয়েড আর্থ্রাইটিসের মতো প্রদাহজনিত রোগের প্রধান লক্ষণ হতে পারে।\n\n## সাধারণ আড়ষ্টতা\n\n- কয়েক মিনিট স্থায়ী হয়, সাধারণত ৩০ মিনিটের কম।\n- চলাফেরা শুরু করলে দ্রুত ভালো হয়ে যায়।\n- অতিরিক্ত পরিশ্রম বা খারাপ ঘুমের পর দেখা দিতে পারে।\n\n## কখন সতর্ক হবেন ও বিশেষজ্ঞ দেখাবেন?\n\n- আড়ষ্টতা যদি প্রায় প্রতিদিনই ৩০ মিনিটের বেশি বা ঘণ্টার পর ঘণ্টা স্থায়ী হয়।\n- আঙুল, কব্জি বা পায়ের জয়েন্টে ব্যথা ও ফোলাভাব থাকে।\n- শরীরের উভয় পাশের একই জয়েন্টগুলো একসাথে আক্রান্ত হয়।\n- সকালে চায়ের কাপ ধরা, তালা-চাবি ঘোরানো বা মুঠ শক্ত করা কঠিন হয়ে পড়ে।\n- কোমরের ব্যথা রাতের বেলা ঘুম ভেঙে দেয় এবং বিশ্রামে না কমে চলাফেরায় ভালো লাগে।\n\n## প্রাথমিক চিকিৎসা কেন জরুরি?\n\nশরীরে চলমান প্রদাহ ধীরে ধীরে জয়েন্টের হাড় ও কার্টিলেজ নষ্ট করে দিতে পারে। প্রথম কয়েক মাসের মধ্যেই বিশেষজ্ঞ চিকিৎসকের তত্ত্বাবধানে চিকিৎসা শুরু করলে স্থায়ী ক্ষতি সম্পূর্ণ প্রতিরোধ করা সম্ভব।"
+      },
+      "cover_image": null,
+      "published_at": "2026-10-25T00:00:00.000Z",
+      "is_published": true,
+      "review_note": "DRAFT FOR DOCTOR'S REVIEW: written by the developer from general patient-education sources. Dr. Sajib should check and approve the wording. Bangla version needed.",
+      "createdAt": "2026-11-01T06:50:47.206Z",
+      "updatedAt": "2026-11-01T06:50:47.206Z"
+    },
+    {
+      "_id": "post_3",
+      "slug": "what-to-bring-to-your-first-rheumatology-visit",
+      "category_slug": "arthritis-care",
+      "title": {
+        "en": "What to bring to your first rheumatology visit",
+        "bn": "প্রথমবার রিউমাটোলজিস্ট দেখানোর পূর্বে কী কী প্রস্তুতি নেবেন?"
+      },
+      "excerpt": {
+        "en": "Coming prepared helps you get the most from your first appointment. Bring your medicines, old reports and X-rays, a list of symptoms with dates, and your questions.",
+        "bn": "সঠিক প্রস্তুতি আপনার প্রথম পরামর্শকে সবচেয়ে বেশি ফলপ্রসূ করে তোলে। প্রেসক্রিপশন, পূর্বের রিপোর্ট, এক্স-রে ফিল্ম এবং আপনার লক্ষণসমূহের তালিকা সাথে নিয়ে আসুন।"
+      },
+      "body": {
+        "en": "A first visit to a rheumatologist often takes longer than a regular check-up, because the doctor needs to understand the full story of your symptoms. Coming prepared helps you get the most from the time you have.\n\n## 1. A list of all your medicines\n\nWrite down every medicine you take, how much and how often. Include:\n\n- Medicines from other doctors.\n- Pain killers bought from a pharmacy.\n- Herbal, homeopathic or other traditional remedies.\n- Vitamins and supplements.\n- Any steroid tablets or injections you have had in the past.\n\nIf it is easier, bring the medicine strips or boxes with you.\n\n## 2. Previous reports and X-rays\n\nBring everything you have, even if it seems old:\n\n- Blood and urine test reports.\n- X-ray films or CDs, not only the written reports.\n- Ultrasound, CT or MRI reports and images.\n- Prescriptions from other doctors and hospital discharge papers.\n\nPut them in a file in date order, with the newest on top. This saves time and avoids repeating tests you have already had.\n\n## 3. A list of symptoms with dates\n\nMemory is easy to lose in a busy clinic, so write it down:\n\n- When did the problem start?\n- Which joints or body parts are affected?\n- How long does morning stiffness last?\n- What makes it better or worse?\n- Any other problems, such as rash, mouth ulcers, dry eyes, hair loss, fever or weight loss.\n\nPhotos of swollen joints or rashes are very useful, because these can come and go.\n\n## 4. Your questions\n\nIt is normal to forget questions during the visit. Write them down before you come. For example:\n\n- What is causing my symptoms?\n- Which tests do I need, and why?\n- How long will treatment take, and what side effects should I watch for?\n- Can I keep working, praying and fasting as usual?\n- What should I do if my symptoms get worse?\n\n## 5. Family and personal history\n\nTell the doctor if anyone in your family has arthritis, psoriasis, lupus or thyroid disease. Women should mention if they are pregnant or planning a pregnancy, because this affects the choice of medicines.\n\n## On the day\n\n- Wear loose clothes, so your joints can be examined easily.\n- Bring a family member if that helps you feel comfortable or remember the advice.\n- Call the chamber before you leave home to confirm the time.\n\nA little preparation helps the doctor understand your problem clearly and plan the right next steps with you.\n\n---\n\n*The information on this page is for general education only and does not replace a personal consultation. Please book an appointment for advice about your own condition.*",
+        "bn": "রিউমাটোলজিস্ট দেখানোর ক্ষেত্রে প্রথম ভিজিটটি সাধারণত একটু বেশি সময় নেয়, কারণ চিকিৎসককে আপনার সামগ্রিক শারীরিক ইতিহাস বুঝতে হয়। প্রস্তুতি নিয়ে এলে সময় বাঁচে এবং সঠিক রোগ নির্ণয় সহজ হয়।\n\n## সাথে যা যা আনবেন\n\n১. **বর্তমান ও পূর্বের সকল ওষুধের তালিকা বা প্রেসক্রিপশন**।\n২. **পূর্ববর্তী সকল রক্ত, প্রস্রাব ও এক্স-রে/এমআরআই রিপোর্ট এবং ফিল্ম**।\n৩. **লক্ষণসমূহের একটি তালিকা ও তারিখ** (কবে থেকে শুরু, কোন কোন জয়েন্টে ব্যথা ইত্যাদি)।\n৪. **আপনার প্রশ্নসমূহ লিখে রাখা** যাতে সাক্ষাতের সময় কোনো প্রয়োজনীয় কথা বাদ না পড়ে।\n\nঢিলেঢালা পোশাক পরে আসবেন যাতে জয়েন্ট পরীক্ষা করা সহজ হয়। চেম্বারে রওনা দেওয়ার আগে ফোনের মাধ্যমে অ্যাপয়েন্টমেন্ট নিশ্চিত করে নিন।"
+      },
+      "cover_image": null,
+      "published_at": "2026-10-25T00:00:00.000Z",
+      "is_published": true,
+      "review_note": "DRAFT FOR DOCTOR'S REVIEW: written by the developer from general patient-education sources. Dr. Sajib should check and approve the wording. Bangla version needed.",
+      "createdAt": "2026-11-01T06:50:47.206Z",
+      "updatedAt": "2026-11-01T06:50:47.206Z"
+    }
+  ],
+  "handouts": [
+    {
+      "_id": "handout_1",
+      "post_slug": "gout-and-diet-what-to-eat-and-avoid",
+      "title": {
+        "en": "Gout and diet: printable sheet",
+        "bn": "গেঁটে বাত ও খাবার: প্রিন্ট করার পাতা (ইংরেজি)"
+      },
+      "file_path": "/handouts/gout-and-diet.pdf",
+      "is_published": true,
+      "createdAt": "2026-11-01T06:50:47.206Z",
+      "updatedAt": "2026-11-01T06:50:47.206Z"
+    }
+  ],
+  "faqs": [
+    {
+      "_id": "faq_1",
+      "question": {
+        "en": "How do I book an appointment?",
+        "bn": "কীভাবে অ্যাপয়েন্টমেন্ট নেব?"
+      },
+      "answer": {
+        "en": "Call the chamber where you want to see Dr. Sajib. You can also send a request through the appointment form on this website, and the chamber team will call you to confirm the time. A request is not a confirmed appointment.",
+        "bn": "যে চেম্বারে দেখাতে চান, সেখানে ফোন করুন। এই ওয়েবসাইটের অ্যাপয়েন্টমেন্ট ফর্মেও অনুরোধ পাঠাতে পারেন, চেম্বার থেকে কল করে সময় নিশ্চিত করা হবে। অনুরোধ পাঠালেই অ্যাপয়েন্টমেন্ট নিশ্চিত হয় না।"
+      },
+      "sort_order": 1,
+      "is_published": true,
+      "review_note": "DRAFT FOR DR. SAJIB TO REVIEW: practical answer written by the developer from the build brief. Please check the wording (English and Bangla).",
+      "createdAt": "2026-11-01T06:50:47.206Z",
+      "updatedAt": "2026-11-01T06:50:47.206Z"
+    },
+    {
+      "_id": "faq_2",
+      "question": {
+        "en": "Where and when does Dr. Sajib see patients?",
+        "bn": "ডা. সজীব কোথায় ও কখন রোগী দেখেন?"
+      },
+      "answer": {
+        "en": "The Chambers page lists each chamber with its address, hours and phone numbers. Hours can change, so please call the chamber to confirm before you visit.",
+        "bn": "চেম্বার পাতায় প্রতিটি চেম্বারের ঠিকানা, সময় ও ফোন নম্বর দেওয়া আছে। সময় পরিবর্তন হতে পারে, তাই আসার আগে চেম্বারে ফোন করে নিশ্চিত হয়ে নিন।"
+      },
+      "sort_order": 2,
+      "is_published": true,
+      "review_note": "DRAFT FOR DR. SAJIB TO REVIEW: practical answer written by the developer from the build brief. Please check the wording (English and Bangla).",
+      "createdAt": "2026-11-01T06:50:47.206Z",
+      "updatedAt": "2026-11-01T06:50:47.206Z"
+    },
+    {
+      "_id": "faq_3",
+      "question": {
+        "en": "What should I bring to my first visit?",
+        "bn": "প্রথমবার দেখাতে এলে কী কী সাথে আনব?"
+      },
+      "answer": {
+        "en": "Bring a list of all your medicines, your previous reports and X-rays, a list of your symptoms with dates, and the questions you want to ask.",
+        "bn": "আপনার সব ওষুধের তালিকা, আগের রিপোর্ট ও এক্স-রে, তারিখসহ সমস্যাগুলোর তালিকা, এবং যে প্রশ্নগুলো করতে চান সেগুলো সাথে আনুন।"
+      },
+      "sort_order": 3,
+      "is_published": true,
+      "review_note": "DRAFT FOR DR. SAJIB TO REVIEW: practical answer written by the developer from the build brief. Please check the wording (English and Bangla).",
+      "createdAt": "2026-11-01T06:50:47.206Z",
+      "updatedAt": "2026-11-01T06:50:47.206Z"
+    },
+    {
+      "_id": "faq_4",
+      "question": {
+        "en": "Can I send my medical reports through this website?",
+        "bn": "এই ওয়েবসাইটের মাধ্যমে কি রিপোর্ট পাঠানো যায়?"
+      },
+      "answer": {
+        "en": "No. Please do not send medical reports or details through the forms on this website. Bring them with you to your visit.",
+        "bn": "না। এই ওয়েবসাইটের ফর্মে রোগের বিস্তারিত বা রিপোর্ট পাঠাবেন না। দেখাতে আসার সময় সাথে নিয়ে আসুন।"
+      },
+      "sort_order": 4,
+      "is_published": true,
+      "review_note": "DRAFT FOR DR. SAJIB TO REVIEW: practical answer written by the developer from the build brief. Please check the wording (English and Bangla).",
+      "createdAt": "2026-11-01T06:50:47.206Z",
+      "updatedAt": "2026-11-01T06:50:47.206Z"
+    }
+  ],
+  "settings": [
+    {
+      "key": "whatsapp_number",
+      "value": ""
+    },
+    {
+      "key": "whatsapp_message",
+      "value": "Hello, I would like to request an appointment with Dr. Sajib."
+    },
+    {
+      "key": "public_email",
+      "value": ""
+    },
+    {
+      "key": "facebook_url",
+      "value": "https://www.facebook.com/dr.khsajib"
+    },
+    {
+      "key": "call_number",
+      "value": "01711-647877"
+    },
+    {
+      "key": "hours_banner_text_en",
+      "value": "Hours can change. Please call the chamber to confirm before you visit."
+    },
+    {
+      "key": "hours_banner_text_bn",
+      "value": "সময় পরিবর্তন হতে পারে। আসার আগে চেম্বারে ফোন করে নিশ্চিত হয়ে নিন।"
+    },
+    {
+      "key": "site_disclaimer_en",
+      "value": "The information on this website is for general education only and does not replace a consultation with a doctor. In an emergency, go to the nearest hospital."
+    },
+    {
+      "key": "site_disclaimer_bn",
+      "value": "এই ওয়েবসাইটের তথ্য শুধুমাত্র সাধারণ স্বাস্থ্য-শিক্ষার জন্য, এটি ডাক্তারের সাথে পরামর্শের বিকল্প নয়। জরুরি অবস্থায় নিকটস্থ হাসপাতালে যান।"
+    },
+    {
+      "key": "page_disclaimer_en",
+      "value": "The information on this page is for general education only and does not replace a personal consultation. Please book an appointment for advice about your own condition."
+    },
+    {
+      "key": "page_disclaimer_bn",
+      "value": "এই পাতার তথ্য শুধুমাত্র সাধারণ শিক্ষার জন্য, এটি ব্যক্তিগত পরামর্শের বিকল্প নয়। আপনার নিজের সমস্যার বিষয়ে পরামর্শের জন্য অ্যাপয়েন্টমেন্ট নিন।"
+    },
+    {
+      "key": "doctor_photo_credit",
+      "value": ""
+    },
+    {
+      "key": "rank_pending_confirmation",
+      "value": "true"
+    }
+  ],
+  "appointmentRequests": [],
+  "contactMessages": []
+}
