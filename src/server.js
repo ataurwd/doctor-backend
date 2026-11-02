@@ -89,6 +89,7 @@ app.get('/api/health', (req, res) => {
 // 9. API Routes
 app.use('/api', publicRoutes);
 app.use('/api/admin', adminRoutes);
+app.use('/api/auth', adminRoutes); // Alias for auth routes (/api/auth/login, /api/auth/me)
 
 // 10. Global 404 Handler for Unrecognized API Routes
 app.use('/api/*', (req, res) => {

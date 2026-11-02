@@ -4,7 +4,7 @@
       "_id": "user_admin_1",
       "name": "Dr. Sajib Admin",
       "email": "admin@example.com",
-      "password": "$2a$10$jrf.t4E3a23f26oQqVH/eeJOgLyvwffvRqhItWNQC9NFcrM/rr3yu",
+      "password": "$2a$10$pr1NenZsbcvV.7Ktshck/.oZg0lu36FtPLAHvoNJpjyZQY1DU8zkC",
       "role": "admin",
       "createdAt": "2026-11-01T06:50:47.204Z",
       "updatedAt": "2026-11-01T06:50:47.205Z"
